@@ -1,0 +1,4 @@
+This folder will be the project using Kiwoom to automate trading.
+
+Initiation date: 2020-04-27
+
