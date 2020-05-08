@@ -203,7 +203,6 @@ class Kiwoom(QAxWidget):
     eval_profit_loss_price, earning_rate])
 
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     kiwoom = Kiwoom()
