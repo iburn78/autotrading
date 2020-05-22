@@ -111,10 +111,10 @@ class PyMon:
             slws.write('B1', 'Time') 
             slws.write('C1', 'Name') 
             slws.write('D1', 'Code') 
-            slws.write('F1', 'Order_type') # 시장가 ('mkt') vs 지정가 ('fixed')
-            slws.write('G1', 'Tr') # yet: not, done: done
-            slws.write('H1', 'Price') # latest price when the list is populated
-            slws.write('E1', 'Amount') # Amount to sell
+            slws.write('E1', 'Order_type') # 시장가 ('mkt') vs 지정가 ('fixed')
+            slws.write('F1', 'Tr') # yet: not, done: done
+            slws.write('G1', 'Price') # latest price when the list is populated
+            slws.write('H1', 'Amount') # Amount to sell
             # slws.write('I1', 'Fee_Tax')
             # slws.write('J1', 'Harvested_total') # After fee and tax  
             # slws.write('K1', 'Date_Trans') # Date / Time when the item is purchased 
@@ -159,11 +159,15 @@ class PyMon:
                 buy_list_code.append(code)
         return buy_list_code
 
+###########################################################################
+##### EXECUTION  
+###########################################################################
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     pymon = PyMon()
     # buy_list_code = pymon.algo_speedy_rising_volume()
     buy_list_code = ['025770', '005930', '006400']
     sell_list_code = ['025770', '006400', '005930']
-    # pymon.update_buy_list(buy_list_code)
+    pymon.update_buy_list(buy_list_code)
     pymon.update_sell_list(sell_list_code)

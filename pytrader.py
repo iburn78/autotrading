@@ -11,7 +11,7 @@ class MyWindow(QMainWindow, form_class):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.trade_stocks_done = False
+        self.need_to_execute_autotrade = False
 
         self.kiwoom = Kiwoom()
         self.kiwoom.comm_connect()
@@ -31,6 +31,7 @@ class MyWindow(QMainWindow, form_class):
         self.lineEdit.textChanged.connect(self.code_changed)
         self.pushButton.clicked.connect(self.send_order_ui)
         self.pushButton_2.clicked.connect(self.check_balance)
+        self.pushButton_3.clicked.connect(self.execute_autotrade)
 
         self.load_buy_sell_list()
         self.check_balance()
@@ -40,9 +41,11 @@ class MyWindow(QMainWindow, form_class):
         market_finish_time = QTime(15,30, 0)
         current_time = QTime.currentTime()
 
-        if current_time > market_start_time and current_time < market_finish_time and self.trade_stocks_done is False:
+        if current_time > market_start_time and current_time < market_finish_time and self.need_to_execute_autotrade is True:
             self.trade_stocks()
-            self.trade_stocks_done = True
+            self.need_to_execute_autotrade = False
+            self.label_8.setText("Autotrade executed")
+            time.sleep(1)
 
         text_time = current_time.toString("hh:mm:ss")
         time_msg = "Time: " + text_time
@@ -65,10 +68,8 @@ class MyWindow(QMainWindow, form_class):
             self.check_balance()
         self.label_7.setText("")
 
-        if self.trade_stocks_done: 
-            self.label_8.setText("Autotrade executed")
-        else: 
-            self.label_8.setText("Autotrade not executed")
+        if self.need_to_execute_autotrade == False: 
+            self.label_8.setText("Nothing to autotrade")
 
     def code_changed(self):
         code = self.lineEdit.text()
@@ -140,6 +141,11 @@ class MyWindow(QMainWindow, form_class):
                 self.tableWidget_2.setItem(j, i, item)
 
         self.tableWidget_2.resizeRowsToContents()
+    
+    def execute_autotrade(self):
+        self.need_to_execute_autotrade = True
+        self.label_8.setText("Autotrade command queued")
+
 
     def load_buy_sell_list(self):
         try: 

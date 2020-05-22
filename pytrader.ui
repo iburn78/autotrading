@@ -289,6 +289,19 @@
       <string>조회</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>426</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Autotrade</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
