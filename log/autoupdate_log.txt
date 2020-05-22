@@ -2,3 +2,19 @@ Autoupdate running at: Wed May  6 10:50:01 2020
     -- success at: Wed May  6 10:52:10 2020
 Autoupdate running at: Thu May  7 10:50:02 2020
     -- success at: Thu May  7 10:52:11 2020
+Autoupdate running at: Tue May 12 10:50:02 2020
+    ERROR in Location 4
+Autoupdate running at: Wed May 13 10:50:02 2020
+    -- success at: Wed May 13 10:52:09 2020
+Autoupdate running at: Thu May 14 10:50:02 2020
+    -- success at: Thu May 14 10:52:10 2020
+Autoupdate running at: Fri May 15 10:50:02 2020
+    ERROR in Location 4
+Autoupdate running at: Mon May 18 10:50:02 2020
+    -- success at: Mon May 18 10:52:10 2020
+Autoupdate running at: Tue May 19 10:50:03 2020
+    -- success at: Tue May 19 10:52:09 2020
+Autoupdate running at: Wed May 20 11:15:18 2020
+    ERROR in Location 1
+Autoupdate running at: Thu May 21 10:50:02 2020
+    -- success at: Thu May 21 10:52:10 2020
