@@ -1,0 +1,11 @@
+SendOrder: Fri May 22 17:30:56 2020 send_order_req 0101 8135010411 1 005930 0 0 03 
+SendOrder: Fri May 22 17:31:15 2020 send_order_req 0101 8135010411 1 005930 0 0 03 
+SendOrder: Fri May 22 17:36:55 2020 send_order_req 0101 8135010411 1 005930 10 0 03 
+SendOrder: Fri May 22 17:37:04 2020 send_order_req 0101 8135010411 1 005930 10 0 03 
+-- SendOrder Fail: Fri May 22 21:25:32 2020 send_order_req 0101 8135010411 1 A005930 10 0 03 
+SendOrder: Fri May 22 21:45:21 2020 send_order_req 0101 8135010411 1 025770 1870 0 03 
+SendOrder: Fri May 22 21:45:21 2020 send_order_req 0101 8135010411 1 006400 80 0 03 
+SendOrder: Fri May 22 21:45:21 2020 send_order_req 0101 8135010411 1 005930 295 0 03 
+SendOrder: Fri May 22 21:49:53 2020 send_order_req 0101 8135010411 2 025770 1870 0 03 
+SendOrder: Fri May 22 21:49:53 2020 send_order_req 0101 8135010411 2 006400 80 0 03 
+SendOrder: Fri May 22 21:49:53 2020 send_order_req 0101 8135010411 2 005930 295 0 03 
