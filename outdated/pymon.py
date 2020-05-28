@@ -8,10 +8,11 @@ from pandas import ExcelWriter, ExcelFile
 import xlsxwriter
 import os.path
 from tabulate import tabulate 
+import random
 
 ALLOCATION_SIZE = 10000000 # Target amount to be purchased in KRW
 
-class PyMon:
+class Pymon:
     def __init__(self):
         self.kiwoom = Kiwoom()
         self.kiwoom.comm_connect()  
@@ -27,7 +28,6 @@ class PyMon:
         self.kiwoom.set_input_value("기준일자", start)
         self.kiwoom.set_input_value("수정주가구분", 1)
         self.kiwoom.comm_rq_data("opt10081_req", "opt10081", 0, "0101")
-        time.sleep(TR_REQ_TIME_INTERVAL)
 
         df = pd.DataFrame(self.kiwoom.ohlcv, columns=['open', 'high', 'low', 'close', 'volume'],
                        index=self.kiwoom.ohlcv['date'])
@@ -39,11 +39,12 @@ class PyMon:
         for i, code in enumerate(buy_list_code):
             name = self.kiwoom.get_master_code_name(code) 
             today = datetime.datetime.today().strftime("%Y%m%d")
-            time = datetime.datetime.now().strftime("%H:%M:%S")
+            time_ = datetime.datetime.now().strftime("%H:%M:%S")
             self.kiwoom.set_input_value("종목코드", code)
             self.kiwoom.comm_rq_data("opt10001_req", "opt10001", 0, "1001")
+
             amount = round(ALLOCATION_SIZE/self.kiwoom.cur_price)
-            buy_list = buy_list.append({'Date': today, 'Time': time, 'Name': name, 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': self.kiwoom.cur_price, 'Amount': amount }, ignore_index=True)
+            buy_list = buy_list.append({'Date': today, 'Time': time_, 'Name': name, 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': self.kiwoom.cur_price, 'Amount': amount }, ignore_index=True)
 
         print('Buy List: \n', tabulate(buy_list, headers='keys', tablefmt='psql'))
 
@@ -55,15 +56,14 @@ class PyMon:
 
         self.kiwoom.set_input_value("계좌번호", account_number)
         self.kiwoom.comm_rq_data("opw00018_req", "opw00018", 0, "2000")
-
+        
         while self.kiwoom.remained_data:
-            time.sleep(TR_REQ_TIME_INTERVAL)
             self.kiwoom.set_input_value("계좌번호", account_number)
             self.kiwoom.comm_rq_data("opw00018_req", "opw00018", 2, "2000")
 
         stock_list = pd.DataFrame(self.kiwoom.opw00018_rawoutput, columns=['name', 'code', 'quantity', 'purchase_price', 'current_price', 'invested_amount', 'current_total', 'eval_profit_loss_price', 'earning_rate'])
         for i in stock_list.index:
-            stock_list.at[i, 'code'] = stock_list['code'][i][1:]
+            stock_list.at[i, 'code'] = stock_list['code'][i][1:]   # taking off "A" in front of returned code
         return stock_list.set_index('code')
 
     def update_sell_list(self, sell_list_code):
@@ -74,11 +74,12 @@ class PyMon:
             if code in list(stock_list.index):
                 name = self.kiwoom.get_master_code_name(code) 
                 today = datetime.datetime.today().strftime("%Y%m%d")
-                time = datetime.datetime.now().strftime("%H:%M:%S")
+                time_ = datetime.datetime.now().strftime("%H:%M:%S")
                 self.kiwoom.set_input_value("종목코드", code)
                 self.kiwoom.comm_rq_data("opt10001_req", "opt10001", 0, "1001") # getting current price
+
                 amount = stock_list['quantity'][code]  
-                sell_list = sell_list.append({'Date': today, 'Time': time, 'Name': name, 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': self.kiwoom.cur_price, 'Amount': amount }, ignore_index=True)
+                sell_list = sell_list.append({'Date': today, 'Time': time_, 'Name': name, 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': self.kiwoom.cur_price, 'Amount': amount }, ignore_index=True)
 
         print('Sell List: \n', tabulate(sell_list, headers='keys', tablefmt='psql'))
         sell_list.to_excel(EXCEL_SELL_LIST, index=False)
@@ -122,8 +123,9 @@ class PyMon:
             sl.close()
 
 
+
 ###########################################################################
-##### ALGORITHM 
+##### ALGORITHMS
 ###########################################################################
 
 
@@ -159,15 +161,40 @@ class PyMon:
                 buy_list_code.append(code)
         return buy_list_code
 
+
 ###########################################################################
 ##### EXECUTION  
 ###########################################################################
+    def run(self): # has to return True if the list is updated
+        current_time = QTime.currentTime()
+
+        # Timer 
+        while datetime.datetime.today().weekday() in range(0,5) and current_time > MARKET_START_TIME and current_time < MARKET_FINISH_TIME:
+            # Algo
+            buy_list_code = []
+            buy_list_code.append(random.choice(self.kospi_codes))
+            buy_list_code.append(random.choice(self.kospi_codes))
+            buy_list_code.append(random.choice(self.kospi_codes))
+            buy_list_code.append(random.choice(self.kospi_codes))
+            buy_list_code.append(random.choice(self.kospi_codes))
+
+            stock_list_codelist = self.get_stock_list().index.tolist()
+            sell_list_code = []
+            sell_list_code.append(random.choice(stock_list_codelist))
+            sell_list_code.append(random.choice(stock_list_codelist))
+            sell_list_code.append(random.choice(stock_list_codelist))
+            sell_list_code.append(random.choice(stock_list_codelist))
+            sell_list_code.append(random.choice(stock_list_codelist))
+
+            pymon.update_buy_list(buy_list_code)
+            pymon.update_sell_list(sell_list_code)
+
+            # Checking 
+            time.sleep(AUTOTRADE_INTERVAL)
+            current_time = QTime.currentTime()
+            print(current_time.toString("hh:mm:ss"))
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    pymon = PyMon()
-    # buy_list_code = pymon.algo_speedy_rising_volume()
-    buy_list_code = ['025770', '005930', '006400']
-    sell_list_code = ['025770', '006400', '005930']
-    pymon.update_buy_list(buy_list_code)
-    pymon.update_sell_list(sell_list_code)
+    pymon = Pymon()
+    pymon.run()

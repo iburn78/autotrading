@@ -2,16 +2,39 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QAxContainer import *
 from PyQt5.QtCore import *
-import time
+from PyQt5 import uic
+import time, datetime
 import pandas as pd
 import sqlite3
+from pandas import ExcelWriter, ExcelFile
+import xlsxwriter
+import os.path
+from tabulate import tabulate 
+import random
 
-TR_REQ_TIME_INTERVAL = 0.5
-EXCEL_BUY_LIST = 'data/buy_list.xlsx'
-EXCEL_SELL_LIST = 'data/sell_list.xlsx'
 MARKET_KOSPI   = 0
 MARKET_KOSDAQ  = 10
+API_REQ_TIME_INTERVAL = 0.2
+AUTOTRADE_INTERVAL = 5*60 # seconds
+ALLOCATION_SIZE = 1000000 # Target amount to be purchased in KRW
+MIN_STOCK_PRICE = 10000 
+
+EXCEL_BUY_LIST = 'data/buy_list.xlsx'
+EXCEL_SELL_LIST = 'data/sell_list.xlsx'
 TRADE_LOG_FILE = 'C:/Users/user/Projects/autotrading/log/trade_log.txt'
+
+RUN_AUTOTRADE = True
+RUN_ANYWAY_OUT_OF_MARKET_OPEN_TIME = True
+WAIT_UNTIL_CHEJAN_FININSH = True
+MARKET_START_TIME = QTime(9, 1, 0)
+MARKET_FINISH_TIME = QTime(15, 20, 0)
+
+HOGA_LOOKUP = {"fixed": "00", "mkt": "03"}
+CODE_MIN_LENGTH = 6
+
+####### 
+# May need to assign account number directly
+####### 
 
 class Kiwoom(QAxWidget):
     def __init__(self):
@@ -19,6 +42,7 @@ class Kiwoom(QAxWidget):
         self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
         self._set_signal_slots()
         self.chejan_received = False
+        self.order_chejan_finished = False
 
     def _set_signal_slots(self):
         self.OnEventConnect.connect(self._event_connect)
@@ -62,11 +86,19 @@ class Kiwoom(QAxWidget):
     def send_order(self, rqname, screen_no, acc_no, order_type, code, quantity, price, hoga, order_no):
         res = self.dynamicCall("SendOrder(QString, QString, QString, int, QString, int, int, QString, QString)",
                         [rqname, screen_no, acc_no, order_type, code, quantity, price, hoga, order_no])
-        if res == 0: # success  
-            self.trade_log_write(" ".join(["SendOrder:", time.ctime(time.time()), str(rqname), str(screen_no), str(acc_no), str(order_type), str(code), str(quantity), str(price), str(hoga), str(order_no)]))
+        self.tr_event_loop = QEventLoop()
+        self.tr_event_loop.exec_()
+        if res == 0 and self.order_number != "": # success  
+            self.trade_log_write(" ".join(["SendOrder:", "Order Number-", self.order_number, time.ctime(time.time()), str(rqname), str(screen_no), str(acc_no), str(order_type), str(code), str(quantity), str(price), str(hoga), str(order_no)]))
+            #############################################################
+            if WAIT_UNTIL_CHEJAN_FININSH: 
+                self.chejan_event_loop = QEventLoop()
+                self.chejan_event_loop.exec_()
+            #############################################################
         else:
-            self.trade_log_write(" ".join(["-- SendOrder Fail:", time.ctime(time.time()), str(rqname), str(screen_no), str(acc_no), str(order_type), str(code), str(quantity), str(price), str(hoga), str(order_no)]))
-        return res
+            self.trade_log_write(" ".join(["-- SendOrder Fail:", "("+str(res)+")", time.ctime(time.time()), str(rqname), str(screen_no), str(acc_no), str(order_type), str(code), str(quantity), str(price), str(hoga), str(order_no)]))
+        time.sleep(API_REQ_TIME_INTERVAL)
+        return (res, self.order_number)
 
     def get_chejan_data(self, fid):
         ret = self.dynamicCall("GetChejanData(int)", fid)
@@ -76,7 +108,15 @@ class Kiwoom(QAxWidget):
         if self.get_chejan_data(911) != "":
             self.trade_log_write(time.ctime(time.time()) + " [" + self.get_chejan_data(9201).strip() + "]: " + self.get_chejan_data(302).strip() + "("+self.get_chejan_data(9001).strip() + ") "
                   + self.get_chejan_data(905) + ", " + self.get_chejan_data(911) + "/" + self.get_chejan_data(900) + ", tr price: " + self.get_chejan_data(910))
-        self.chejan_received = True
+        #############################################################
+            if WAIT_UNTIL_CHEJAN_FININSH:
+                if self.get_chejan_data(911) == self.get_chejan_data(900):
+                    try:
+                        self.chejan_event_loop.exit()
+                    except Exception as e: 
+                        print("On chejan receive, loop exit error:", e)
+                    self.order_chejan_finished = True
+        #############################################################
     
     def trade_log_write(self, msg):
         ff = open(TRADE_LOG_FILE, 'a')
@@ -87,10 +127,12 @@ class Kiwoom(QAxWidget):
     def set_input_value(self, id, value):
         self.dynamicCall("SetInputValue(QString, QString)", id, value)
 
-    def comm_rq_data(self, rqname, trcode, next, screen_no):
-        self.dynamicCall("CommRqData(QString, QString, int, QString)", rqname, trcode, next, screen_no)
+    def comm_rq_data(self, rqname, trcode, next_, screen_no):
+        self.dynamicCall("CommRqData(QString, QString, int, QString)", rqname, trcode, next_, screen_no)
+        # print(rqname, trcode, next_, screen_no)
         self.tr_event_loop = QEventLoop()
         self.tr_event_loop.exec_()
+        time.sleep(API_REQ_TIME_INTERVAL)
 
     def _comm_get_data(self, code, real_type, field_name, index, item_name):
         ret = self.dynamicCall("CommGetData(QString, QString, QString, int, QString)", code,
@@ -101,8 +143,8 @@ class Kiwoom(QAxWidget):
         ret = self.dynamicCall("GetRepeatCnt(QString, QString)", trcode, rqname)
         return ret
 
-    def _receive_tr_data(self, screen_no, rqname, trcode, record_name, next, unused1, unused2, unused3, unused4):
-        if next == '2':
+    def _receive_tr_data(self, screen_no, rqname, trcode, record_name, next_, unused1, unused2, unused3, unused4):
+        if next_ == '2':
             self.remained_data = True
         else:
             self.remained_data = False
@@ -121,12 +163,24 @@ class Kiwoom(QAxWidget):
             self._opw00018(rqname, trcode)
 
         elif rqname == "opt10001_req": 
+            self.cur_price = 0
             self._opt10001(rqname, trcode)
+        
+        elif rqname == "send_order_req":
+            self.order_number = ""
+            self._send_order_req(rqname, trcode)
+
+        else: 
+            print(screen_no, rqname, trcode, record_name, next_, unused1, unused2, unused3, unused4)
 
         try:
             self.tr_event_loop.exit()
-        except AttributeError:
-            pass
+        except Exception as e: 
+            print("On tr receive, loop exit error:", e)
+
+    def _send_order_req(self, rqname, trcode):
+        order_number = self._comm_get_data(trcode, "", rqname, 0, "주문번호")
+        self.order_number = order_number
 
     def _opt10081(self, rqname, trcode):
         data_cnt = self._get_repeat_cnt(trcode, rqname)
@@ -157,7 +211,7 @@ class Kiwoom(QAxWidget):
         total_eval_profit_loss_price = self._comm_get_data(trcode, "", rqname, 0, "총평가손익금액")
         total_earning_rate = self._comm_get_data(trcode, "", rqname, 0, "총수익률(%)")
         if self.get_server_gubun():  # 1 if test_server
-            total_earning_rate = round(float(total_earning_rate) / 100, 3)
+            total_earning_rate = round(float(total_earning_rate), 3) # seems this discrepancy is fixed
         else: 
             total_earning_rate = round(float(total_earning_rate), 3)
         total_earning_rate = str(total_earning_rate)
@@ -196,8 +250,12 @@ class Kiwoom(QAxWidget):
 
     def _opt10001(self, rqname, trcode):
         cur_price = self._comm_get_data(trcode, "", rqname, 0, "현재가")
-        self.cur_price = abs(int(cur_price))
-
+        try: 
+            cur_price = abs(int(cur_price))
+        except Exception as e:
+            # print(e)
+            cur_price = 0
+        self.cur_price = cur_price
 
     @staticmethod
     def change_format(data): 
@@ -229,3 +287,91 @@ class Kiwoom(QAxWidget):
             strip_data = '-' + strip_data
 
         return strip_data
+        
+    def get_ohlcv(self, code, start):
+        self.set_input_value("종목코드", code)
+        self.set_input_value("기준일자", start)
+        self.set_input_value("수정주가구분", 1)
+        self.comm_rq_data("opt10081_req", "opt10081", 0, "0101")
+
+        df = pd.DataFrame(self.kiwoom.ohlcv, columns=['open', 'high', 'low', 'close', 'volume'],
+                       index=self.kiwoom.ohlcv['date'])
+        return df
+
+    def excelfile_initiator(self):
+        if not os.path.exists(EXCEL_BUY_LIST): 
+            # create buy list
+            bl = xlsxwriter.Workbook(EXCEL_BUY_LIST)
+            blws = bl.add_worksheet() 
+    
+            blws.write('A1', 'Date') # Date / Time when the item is added
+            blws.write('B1', 'Time') 
+            blws.write('C1', 'Name') 
+            blws.write('D1', 'Code') 
+            blws.write('E1', 'Order_type') # 시장가 ('mkt') vs 지정가 ('fixed')
+            blws.write('F1', 'Tr') # yet: not, done: done
+            blws.write('G1', 'Price') # latest price when the list is populated
+            blws.write('H1', 'Amount') 
+            # blws.write('I1', 'Invested_total') # Before any fee and tax 
+            # blws.write('J1', 'Date_Trans') # Date / Time when the item is purchased 
+            # blws.write('K1', 'Time_Trans') 
+            bl.close()
+    
+        if not os.path.exists(EXCEL_SELL_LIST): 
+            # create sell list
+            sl = xlsxwriter.Workbook(EXCEL_SELL_LIST)
+            slws = sl.add_worksheet() 
+    
+            slws.write('A1', 'Date') # Date / Time when the item is added
+            slws.write('B1', 'Time') 
+            slws.write('C1', 'Name') 
+            slws.write('D1', 'Code') 
+            slws.write('E1', 'Order_type') # 시장가 ('mkt') vs 지정가 ('fixed')
+            slws.write('F1', 'Tr') # yet: not, done: done
+            slws.write('G1', 'Price') # latest price when the list is populated
+            slws.write('H1', 'Amount') # Amount to sell
+            # slws.write('I1', 'Fee_Tax')
+            # slws.write('J1', 'Harvested_total') # After fee and tax  
+            # slws.write('K1', 'Date_Trans') # Date / Time when the item is purchased 
+            # slws.write('L1', 'Time_Trans') 
+            sl.close()
+
+    def get_my_stock_list(self):
+        account_number = self.get_login_info("ACCNO")
+        account_number = account_number.split(';')[0]
+
+        self.set_input_value("계좌번호", account_number)
+        self.comm_rq_data("opw00018_req", "opw00018", 0, "2000")
+        
+        while self.remained_data:
+            self.set_input_value("계좌번호", account_number)
+            self.comm_rq_data("opw00018_req", "opw00018", 2, "2000")
+
+        stock_list = pd.DataFrame(self.opw00018_rawoutput, columns=['name', 'code', 'quantity', 'purchase_price', 'current_price', 'invested_amount', 'current_total', 'eval_profit_loss_price', 'earning_rate'])
+        for i in stock_list.index:
+            stock_list.at[i, 'code'] = stock_list['code'][i][1:]   # taking off "A" in front of returned code
+        return stock_list.set_index('code')
+
+    def update_buy_list(self, buy_list_code, buy_list_price):
+        buy_list = pd.read_excel(EXCEL_BUY_LIST, index_col=None, converters={'Code':str})
+
+        for i, code in enumerate(buy_list_code):
+            name = self.get_master_code_name(code) 
+            today = datetime.datetime.today().strftime("%Y%m%d")
+            time_ = datetime.datetime.now().strftime("%H:%M:%S")
+            amount = round(ALLOCATION_SIZE/buy_list_price[i])
+            buy_list = buy_list.append({'Date': today, 'Time': time_, 'Name': name, 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': buy_list_price[i], 'Amount': amount }, ignore_index=True)
+
+        print('Buy List: \n', tabulate(buy_list[-30:], headers='keys', tablefmt='psql'))
+        buy_list.to_excel(EXCEL_BUY_LIST, index=False)
+
+    def update_sell_list(self, names_to_sell, codes_to_sell, quantity_to_sell, prices_to_sell):
+        sell_list = pd.read_excel(EXCEL_SELL_LIST, index_col=None, converters={'Code':str})
+        
+        for i, code in enumerate(codes_to_sell):
+            today = datetime.datetime.today().strftime("%Y%m%d")
+            time_ = datetime.datetime.now().strftime("%H:%M:%S")
+            sell_list = sell_list.append({'Date': today, 'Time': time_, 'Name': names_to_sell[i], 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': prices_to_sell[i], 'Amount': quantity_to_sell[i] }, ignore_index=True)
+
+        print('Sell List: \n', tabulate(sell_list[-30:], headers='keys', tablefmt='psql'))
+        sell_list.to_excel(EXCEL_SELL_LIST, index=False)
