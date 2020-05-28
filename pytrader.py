@@ -85,7 +85,7 @@ class MyWindow(QMainWindow, form_class):
             self.spinBox_2.setValue(0)
 
     def send_order_ui(self):
-        order_type_lookup = {'신규매수': 1, '신규매도': 2}
+        order_type_lookup = {'Buy': 1, 'Sell': 2}
 
         account = self.comboBox.currentText()
         order_type = self.comboBox_2.currentText()
@@ -215,49 +215,18 @@ class MyWindow(QMainWindow, form_class):
 
         sell_list.to_excel(EXCEL_SELL_LIST, index=False)
 
-    def autotrade_list_gen(self): 
-        # Algo
-        BUY_SELL_SIZE = 3
-
-        buy_list_code = []
-        buy_list_price = []
-        for i in range(BUY_SELL_SIZE):
-            code = random.choice(self.candidate_codes)
-            self.kiwoom.set_input_value("종목코드", code)
-            self.kiwoom.comm_rq_data("opt10001_req", "opt10001", 0, "1001")
-            name = self.kiwoom.get_master_code_name(code) 
-            price = self.kiwoom.cur_price
-            if price > MIN_STOCK_PRICE: 
-                buy_list_code.append(code)
-                buy_list_price.append(price)
-
-        my_stock_list = self.kiwoom.get_my_stock_list()
-        my_names = my_stock_list['name'].tolist()
-        my_codes = my_stock_list.index.tolist()
-        my_quantities = my_stock_list['quantity'].tolist()
-        my_cur_price = my_stock_list['current_price'].tolist()
-        set_to_sell = list(range(len(my_codes)))
-        if len(my_codes) > BUY_SELL_SIZE:
-            n = random.sample(set_to_sell, BUY_SELL_SIZE)
-        else: 
-            n = set_to_sell
-
-        names_to_sell = []
-        codes_to_sell = []
-        quantity_to_sell = [] 
-        prices_to_sell = []
-        for i in n:
-            names_to_sell.append(my_names[i])
-            codes_to_sell.append(my_codes[i])
-            quantity_to_sell.append(my_quantities[i])
-            prices_to_sell.append(my_cur_price[i])
-
-        self.kiwoom.update_buy_list(buy_list_code, buy_list_price)
-        self.kiwoom.update_sell_list(names_to_sell, codes_to_sell, quantity_to_sell, prices_to_sell)
-
 ###########################################################################
 ##### ALGORITHMS
 ###########################################################################
+
+    def autotrade_list_gen(self): 
+
+        [code, price] = self.algo_random_choose_buy(3)
+        # sell_list = self.algo_random_choose_sell(3)
+        sell_list = self.algo_sell_by_return_range(10, -1)
+
+        self.kiwoom.update_buy_list(code, price)
+        self.kiwoom.update_sell_list(sell_list)
 
     def check_speedy_rising_volume(self, code):
         today = datetime.datetime.today().strftime("%Y%m%d")
@@ -291,6 +260,36 @@ class MyWindow(QMainWindow, form_class):
                 buy_list_code.append(code)
         return buy_list_code
 
+    def algo_random_choose_buy(self, BUY_SELL_SIZE):
+        buy_list_code = []
+        buy_list_price = []
+        for i in range(BUY_SELL_SIZE):
+            code = random.choice(self.candidate_codes)
+            self.kiwoom.set_input_value("종목코드", code)
+            self.kiwoom.comm_rq_data("opt10001_req", "opt10001", 0, "1001")
+            name = self.kiwoom.get_master_code_name(code) 
+            price = self.kiwoom.cur_price
+            if price > MIN_STOCK_PRICE: 
+                buy_list_code.append(code)
+                buy_list_price.append(price)
+        return [buy_list_code, buy_list_price]
+
+    def algo_random_choose_sell(self, BUY_SELL_SIZE):
+        my_stock_list = self.kiwoom.get_my_stock_list()
+        if len(my_stock_list) > BUY_SELL_SIZE:
+            n = list(range(len(my_stock_list))) 
+            set_to_sell = random.sample(n, BUY_SELL_SIZE)
+            return my_stock_list.iloc[set_to_sell]
+        else: 
+            return my_stock_list
+        
+    def algo_sell_by_return_range(self, upperlimit, lowerlimit): # upperlimit, lowerlimit in percentage
+        my_stocks = self.kiwoom.get_my_stock_list()
+        profit_sell_list = my_stocks[my_stocks['earning_rate'] > upperlimit] 
+        loss_sell_list = my_stocks[my_stocks['earning_rate'] < lowerlimit] 
+        print('Profit Sell List (up to 50 items): \n', tabulate(profit_sell_list[:50], headers='keys', tablefmt='psql'))
+        print('Loss Sell List (up to 50 items): \n', tabulate(loss_sell_list[:50], headers='keys', tablefmt='psql'))
+        return profit_sell_list.append(loss_sell_list)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

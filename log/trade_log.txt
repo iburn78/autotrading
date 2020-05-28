@@ -1,352 +1,953 @@
-SendOrder: Order Number- 0073347 Thu May 28 10:25:40 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
-SendOrder: Order Number- 0073850 Thu May 28 10:26:37 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
-SendOrder: Order Number- 0074278 Thu May 28 10:27:38 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
-SendOrder: Order Number- 0074282 Thu May 28 10:27:38 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
-SendOrder: Order Number- 0074290 Thu May 28 10:27:39 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
-Thu May 28 10:27:39 2020 [8135010411]: NAVER(A035420) +매수, 2/4, tr price: 229500
-SendOrder: Order Number- 0074295 Thu May 28 10:27:39 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
-Thu May 28 10:27:39 2020 [8135010411]: 카카오(A035720) +매수, 1/4, tr price: 260000
-SendOrder: Order Number- 0074298 Thu May 28 10:27:39 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
-SendOrder: Order Number- 0074300 Thu May 28 10:27:39 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
-Thu May 28 10:27:40 2020 [8135010411]: SK이노베이션(A096770) +매수, 8/8, tr price: 121500
-SendOrder: Order Number- 0074302 Thu May 28 10:27:40 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
-Thu May 28 10:27:40 2020 [8135010411]: SK텔레콤(A017670) +매수, 5/5, tr price: 211500
-SendOrder: Order Number- 0074305 Thu May 28 10:27:40 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
-Thu May 28 10:27:40 2020 [8135010411]: 삼성전자(A005930) +매수, 20/20, tr price: 51000
-Thu May 28 10:27:40 2020 [8135010411]: 카카오(A035720) +매수, 4/4, tr price: 260000
-SendOrder: Order Number- 0074308 Thu May 28 10:27:40 2020 send_order_req 0101 8135010411 1 122630 88 0 03 
-Thu May 28 10:27:40 2020 [8135010411]: NAVER(A035420) +매수, 3/4, tr price: 229500
-SendOrder: Order Number- 0074309 Thu May 28 10:27:41 2020 send_order_req 0101 8135010411 1 078930 26 0 03 
-Thu May 28 10:27:41 2020 [8135010411]: GS(A078930) +매수, 26/26, tr price: 39250
-SendOrder: Order Number- 0074314 Thu May 28 10:27:41 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
-SendOrder: Order Number- 0074319 Thu May 28 10:27:41 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
-Thu May 28 10:27:41 2020 [8135010411]: NAVER(A035420) +매수, 4/4, tr price: 229500
-Thu May 28 10:27:41 2020 [8135010411]: NAVER(A035420) +매수, 2/4, tr price: 229500
-Thu May 28 10:27:41 2020 [8135010411]: NAVER(A035420) +매수, 4/4, tr price: 229250
-SendOrder: Order Number- 0074320 Thu May 28 10:27:41 2020 send_order_req 0101 8135010411 1 000660 12 0 03 
-Thu May 28 10:27:42 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 1/2, tr price: 613000
-Thu May 28 10:27:42 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 1/88, tr price: 11310
-Thu May 28 10:27:42 2020 [8135010411]: 엔씨소프트(A036570) +매수, 1/1, tr price: 779000
-Thu May 28 10:27:42 2020 [8135010411]: SK하이닉스(A000660) +매수, 12/12, tr price: 84600
-SendOrder: Order Number- 0074326 Thu May 28 10:27:42 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-SendOrder: Order Number- 0075400 Thu May 28 10:29:53 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
-SendOrder: Order Number- 0075403 Thu May 28 10:29:53 2020 send_order_req 0101 8135010411 1 122630 88 0 03 
-SendOrder: Order Number- 0075406 Thu May 28 10:29:53 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
-Thu May 28 10:29:54 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168500
-SendOrder: Order Number- 0075409 Thu May 28 10:29:54 2020 send_order_req 0101 8135010411 1 078930 26 0 03 
-SendOrder: Order Number- 0075412 Thu May 28 10:29:54 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:54 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-Thu May 28 10:29:54 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 1/88, tr price: 11325
-SendOrder: Order Number- 0075418 Thu May 28 10:29:54 2020 send_order_req 0101 8135010411 2 183190 161 0 03 
-SendOrder: Order Number- 0075422 Thu May 28 10:29:55 2020 send_order_req 0101 8135010411 2 111110 893 0 03 
-SendOrder: Order Number- 0075427 Thu May 28 10:29:55 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
-Thu May 28 10:29:55 2020 [8135010411]: SK텔레콤(A017670) +매수, 3/5, tr price: 212000
-SendOrder: Order Number- 0075429 Thu May 28 10:29:55 2020 send_order_req 0101 8135010411 2 174350 28 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:56 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:56 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-Thu May 28 10:29:56 2020 [8135010411]: GS(A078930) +매수, 2/26, tr price: 39200
--- SendOrder Fail: (0) Thu May 28 10:29:56 2020 send_order_req 0101 8135010411 2 183190 161 0 03 
-SendOrder: Order Number- 0075442 Thu May 28 10:29:56 2020 send_order_req 0101 8135010411 2 210980 383 0 03 
-Thu May 28 10:29:57 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 21/88, tr price: 11330
-SendOrder: Order Number- 0075443 Thu May 28 10:29:57 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
-SendOrder: Order Number- 0075444 Thu May 28 10:29:57 2020 send_order_req 0101 8135010411 2 086790 369 0 03 
-Thu May 28 10:29:57 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 22/88, tr price: 11330
-SendOrder: Order Number- 0075448 Thu May 28 10:29:57 2020 send_order_req 0101 8135010411 2 016710 913 0 03 
-Thu May 28 10:29:57 2020 [8135010411]: SK디앤디(A210980) -매도, 48/383, tr price: 24850
-SendOrder: Order Number- 0075450 Thu May 28 10:29:57 2020 send_order_req 0101 8135010411 2 035720 8 0 03 
-Thu May 28 10:29:58 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 88/88, tr price: 11326
-SendOrder: Order Number- 0075451 Thu May 28 10:29:58 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:58 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
-Thu May 28 10:29:58 2020 [8135010411]: 하나금융지주(A086790) -매도, 96/369, tr price: 28200
-SendOrder: Order Number- 0075457 Thu May 28 10:29:58 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
-Thu May 28 10:29:58 2020 [8135010411]: 카카오(A035720) -매도, 5/8, tr price: 260000
--- SendOrder Fail: (0) Thu May 28 10:29:58 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:59 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:59 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
--- SendOrder Fail: (0) Thu May 28 10:29:59 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-Thu May 28 10:30:00 2020 [8135010411]: SK텔레콤(A017670) +매수, 4/5, tr price: 212000
-Thu May 28 10:30:00 2020 [8135010411]: SK텔레콤(A017670) +매수, 5/5, tr price: 212000
-Thu May 28 10:30:00 2020 [8135010411]: 카카오(A035720) -매도, 6/8, tr price: 260000
-Thu May 28 10:30:01 2020 [8135010411]: GS(A078930) +매수, 26/26, tr price: 39246
-Thu May 28 10:30:02 2020 [8135010411]: 카카오(A035720) -매도, 7/8, tr price: 260000
-Thu May 28 10:30:03 2020 [8135010411]: 하나금융지주(A086790) -매도, 319/369, tr price: 28200
-Thu May 28 10:30:03 2020 [8135010411]: 카카오(A035720) -매도, 8/8, tr price: 260000
-Thu May 28 10:30:03 2020 [8135010411]: 하나금융지주(A086790) -매도, 369/369, tr price: 28207
-Thu May 28 10:30:05 2020 [8135010411]: LG(A003550) +매수, 15/15, tr price: 64800
-Thu May 28 10:30:11 2020 [8135010411]: 아세아시멘트(A183190) -매도, 133/161, tr price: 62900
-Thu May 28 10:30:22 2020 [8135010411]: TIGER 코스피대형주(A277640) -매도, 112/288, tr price: 9985
-Thu May 28 10:30:22 2020 [8135010411]: TIGER 로우볼(A174350) -매도, 28/28, tr price: 9275
-Thu May 28 10:30:26 2020 [8135010411]: TIGER 코스피대형주(A277640) -매도, 224/288, tr price: 9988
-Thu May 28 10:30:35 2020 [8135010411]: SK디앤디(A210980) -매도, 106/383, tr price: 24877
-Thu May 28 10:30:44 2020 [8135010411]: 아세아시멘트(A183190) -매도, 134/161, tr price: 62899
-Thu May 28 10:30:46 2020 [8135010411]: 호전실업(A111110) -매도, 2/893, tr price: 10850
-Thu May 28 10:30:46 2020 [8135010411]: 아세아시멘트(A183190) -매도, 135/161, tr price: 62899
-Thu May 28 10:30:48 2020 [8135010411]: 아세아시멘트(A183190) -매도, 136/161, tr price: 62898
-SendOrder: Order Number- 0075865 Thu May 28 10:30:53 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
-SendOrder: Order Number- 0075867 Thu May 28 10:30:53 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
-SendOrder: Order Number- 0075870 Thu May 28 10:30:53 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
-Thu May 28 10:30:54 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 1/2, tr price: 613000
-SendOrder: Order Number- 0075876 Thu May 28 10:30:54 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
-SendOrder: Order Number- 0075880 Thu May 28 10:30:54 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
-Thu May 28 10:30:54 2020 [8135010411]: 카카오(A035720) +매수, 4/4, tr price: 261000
--- SendOrder Fail: (0) Thu May 28 10:30:54 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 10:30:54 2020 send_order_req 0101 8135010411 2 277640 64 0 03 
--- SendOrder Fail: (0) Thu May 28 10:30:55 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 10:30:55 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
-Thu May 28 10:30:55 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 613000
-SendOrder: Order Number- 0075891 Thu May 28 10:30:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
-Thu May 28 10:30:56 2020 [8135010411]: 호전실업(A111110) -매도, 3/893, tr price: 10833
-Thu May 28 10:30:56 2020 [8135010411]: CJ제일제당(A097950) +매수, 2/3, tr price: 299000
-Thu May 28 10:30:57 2020 [8135010411]: SK텔레콤(A017670) +매수, 5/5, tr price: 211500
-Thu May 28 10:30:58 2020 [8135010411]: 엔씨소프트(A036570) +매수, 1/1, tr price: 780000
-Thu May 28 10:31:10 2020 [8135010411]: CJ제일제당(A097950) +매수, 3/3, tr price: 299000
-Thu May 28 10:31:12 2020 [8135010411]: SK디앤디(A210980) -매도, 140/383, tr price: 24871
-Thu May 28 10:31:14 2020 [8135010411]: TIGER 코스피대형주(A277640) -매도, 280/288, tr price: 9989
-Thu May 28 10:31:16 2020 [8135010411]: TIGER 코스피대형주(A277640) -매도, 288/288, tr price: 9989
-Thu May 28 10:31:18 2020 [8135010411]: SK디앤디(A210980) -매도, 146/383, tr price: 24870
-Thu May 28 10:31:24 2020 [8135010411]: 호전실업(A111110) -매도, 4/893, tr price: 10825
-SendOrder: Order Number- 0076392 Thu May 28 10:31:53 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
-SendOrder: Order Number- 0076396 Thu May 28 10:31:53 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
-Thu May 28 10:31:53 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 615000
--- SendOrder Fail: (0) Thu May 28 10:31:53 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 10:31:54 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 10:31:54 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 10:31:54 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 10:31:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
-Thu May 28 10:31:55 2020 [8135010411]: 삼성SDI(A006400) +매수, 1/3, tr price: 364500
-Thu May 28 10:31:55 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 364500
-Thu May 28 10:31:56 2020 [8135010411]: 아세아시멘트(A183190) -매도, 139/161, tr price: 62896
-Thu May 28 10:32:18 2020 [8135010411]: 아세아시멘트(A183190) -매도, 140/161, tr price: 62895
-Thu May 28 10:32:23 2020 [8135010411]: 호전실업(A111110) -매도, 6/893, tr price: 10833
-Thu May 28 10:32:50 2020 [8135010411]: 호전실업(A111110) -매도, 7/893, tr price: 10829
-Thu May 28 10:32:51 2020 [8135010411]: SK디앤디(A210980) -매도, 169/383, tr price: 24874
-SendOrder: Order Number- 0076862 Thu May 28 10:32:53 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
-SendOrder: Order Number- 0076864 Thu May 28 10:32:53 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
-SendOrder: Order Number- 0076865 Thu May 28 10:32:53 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
-SendOrder: Order Number- 0076868 Thu May 28 10:32:54 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
--- SendOrder Fail: (0) Thu May 28 10:32:54 2020 send_order_req 0101 8135010411 2 210980 214 0 03 
-Thu May 28 10:32:54 2020 [8135010411]: GS(A078930) +매수, 3/25, tr price: 39250
-Thu May 28 10:32:54 2020 [8135010411]: SK(A034730) +매수, 4/4, tr price: 254500
--- SendOrder Fail: (0) Thu May 28 10:32:54 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 10:32:54 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 10:32:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 10:32:55 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
-Thu May 28 10:32:56 2020 [8135010411]: 아세아시멘트(A183190) -매도, 151/161, tr price: 62895
-Thu May 28 10:32:56 2020 [8135010411]: 삼성SDI(A006400) +매수, 2/3, tr price: 364000
-Thu May 28 10:32:59 2020 [8135010411]: SK디앤디(A210980) -매도, 174/383, tr price: 24876
-Thu May 28 10:33:00 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 364000
-Thu May 28 10:33:02 2020 [8135010411]: 호전실업(A111110) -매도, 11/893, tr price: 10818
-Thu May 28 10:33:09 2020 [8135010411]: GS(A078930) +매수, 16/25, tr price: 39250
-Thu May 28 10:33:13 2020 [8135010411]: ARIRANG 중형주저변동50(A266550) -매도, 4/272, tr price: 8195
-Thu May 28 10:33:18 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39250
-Thu May 28 10:33:18 2020 [8135010411]: GS(A078930) +매수, 2/25, tr price: 39250
-Thu May 28 10:33:21 2020 [8135010411]: GS(A078930) +매수, 3/25, tr price: 39250
-Thu May 28 10:33:22 2020 [8135010411]: GS(A078930) +매수, 4/25, tr price: 39250
-Thu May 28 10:33:27 2020 [8135010411]: SK디앤디(A210980) -매도, 203/383, tr price: 24872
-Thu May 28 10:33:28 2020 [8135010411]: GS(A078930) +매수, 7/25, tr price: 39250
-Thu May 28 10:33:42 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39286
-SendOrder: Order Number- 0077367 Thu May 28 10:33:53 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
-SendOrder: Order Number- 0077369 Thu May 28 10:33:53 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
-Thu May 28 10:33:53 2020 [8135010411]: 카카오(A035720) +매수, 4/4, tr price: 263000
-SendOrder: Order Number- 0077372 Thu May 28 10:33:53 2020 send_order_req 0101 8135010411 1 122630 88 0 03 
-Thu May 28 10:33:54 2020 [8135010411]: 아세아시멘트(A183190) -매도, 155/161, tr price: 62895
-Thu May 28 10:33:54 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 88/88, tr price: 11385
-SendOrder: Order Number- 0077374 Thu May 28 10:33:54 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
-SendOrder: Order Number- 0077381 Thu May 28 10:33:54 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
--- SendOrder Fail: (0) Thu May 28 10:33:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 10:33:54 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
-SendOrder: Order Number- 0077386 Thu May 28 10:33:55 2020 send_order_req 0101 8135010411 2 207940 6 0 03 
-Thu May 28 10:33:55 2020 [8135010411]: 삼성SDI(A006400) +매수, 1/3, tr price: 364500
--- SendOrder Fail: (0) Thu May 28 10:33:55 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 10:33:55 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
-Thu May 28 10:33:56 2020 [8135010411]: 삼성전자(A005930) +매수, 20/20, tr price: 50900
-Thu May 28 10:33:56 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 364500
-Thu May 28 10:33:58 2020 [8135010411]: 현대차(A005380) +매수, 1/10, tr price: 98300
-Thu May 28 10:33:58 2020 [8135010411]: 삼성바이오로직스(A207940) -매도, 4/6, tr price: 616000
-Thu May 28 10:33:59 2020 [8135010411]: 현대차(A005380) +매수, 3/10, tr price: 98300
-Thu May 28 10:33:59 2020 [8135010411]: 현대차(A005380) +매수, 4/10, tr price: 98300
-Thu May 28 10:34:00 2020 [8135010411]: 현대차(A005380) +매수, 10/10, tr price: 98300
-Thu May 28 10:34:01 2020 [8135010411]: 삼성바이오로직스(A207940) -매도, 5/6, tr price: 616000
-Thu May 28 10:34:02 2020 [8135010411]: 호전실업(A111110) -매도, 12/893, tr price: 10817
-Thu May 28 10:34:06 2020 [8135010411]: 삼성바이오로직스(A207940) -매도, 6/6, tr price: 616000
-Thu May 28 10:34:44 2020 [8135010411]: 호전실업(A111110) -매도, 13/893, tr price: 10815
-Thu May 28 10:34:47 2020 [8135010411]: SK디앤디(A210980) -매도, 241/383, tr price: 24877
-SendOrder: Order Number- 0077724 Thu May 28 10:34:53 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
-SendOrder: Order Number- 0077730 Thu May 28 10:34:53 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
-SendOrder: Order Number- 0077734 Thu May 28 10:34:53 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
-Thu May 28 10:34:54 2020 [8135010411]: NAVER(A035420) +매수, 4/4, tr price: 231000
-SendOrder: Order Number- 0077737 Thu May 28 10:34:54 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
-Thu May 28 10:34:54 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 4/6, tr price: 168500
-Thu May 28 10:34:54 2020 [8135010411]: 삼성SDI(A006400) +매수, 1/3, tr price: 365000
-SendOrder: Order Number- 0077740 Thu May 28 10:34:54 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
--- SendOrder Fail: (0) Thu May 28 10:34:54 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
-Thu May 28 10:34:54 2020 [8135010411]: 삼성전자(A005930) +매수, 4/20, tr price: 50900
--- SendOrder Fail: (0) Thu May 28 10:34:54 2020 send_order_req 0101 8135010411 2 210980 142 0 03 
-Thu May 28 10:34:55 2020 [8135010411]: 삼성전자(A005930) +매수, 20/20, tr price: 50980
--- SendOrder Fail: (0) Thu May 28 10:34:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
-Thu May 28 10:34:55 2020 [8135010411]: SK텔레콤(A017670) +매수, 5/5, tr price: 211500
--- SendOrder Fail: (0) Thu May 28 10:34:55 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 10:34:55 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
-Thu May 28 10:34:56 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 365000
-Thu May 28 10:34:59 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168500
-Thu May 28 10:35:00 2020 [8135010411]: 아세아시멘트(A183190) -매도, 156/161, tr price: 62895
-Thu May 28 10:35:20 2020 [8135010411]: 아세아시멘트(A183190) -매도, 157/161, tr price: 62894
-Thu May 28 10:35:33 2020 [8135010411]: 호전실업(A111110) -매도, 16/893, tr price: 10813
-Thu May 28 10:35:53 2020 [8135010411]: SK디앤디(A210980) -매도, 242/383, tr price: 24877
-SendOrder: Order Number- 0078163 Thu May 28 10:35:53 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
-SendOrder: Order Number- 0078165 Thu May 28 10:35:53 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
-SendOrder: Order Number- 0078168 Thu May 28 10:35:53 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
-Thu May 28 10:35:54 2020 [8135010411]: 현대차(A005380) +매수, 1/10, tr price: 98300
-Thu May 28 10:35:55 2020 [8135010411]: 현대차(A005380) +매수, 3/10, tr price: 98300
-Thu May 28 10:35:55 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 617000
-Thu May 28 10:35:56 2020 [8135010411]: GS(A078930) +매수, 10/25, tr price: 39350
-Thu May 28 10:35:57 2020 [8135010411]: GS(A078930) +매수, 11/25, tr price: 39350
-Thu May 28 10:35:57 2020 [8135010411]: 현대차(A005380) +매수, 5/10, tr price: 98300
-Thu May 28 10:35:59 2020 [8135010411]: 호전실업(A111110) -매도, 18/893, tr price: 10817
-Thu May 28 10:36:00 2020 [8135010411]: 현대차(A005380) +매수, 10/10, tr price: 98300
-Thu May 28 10:36:00 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168500
-Thu May 28 10:36:04 2020 [8135010411]: SK디앤디(A210980) -매도, 246/383, tr price: 24877
-Thu May 28 10:36:08 2020 [8135010411]: GS(A078930) +매수, 13/25, tr price: 39350
-Thu May 28 10:36:12 2020 [8135010411]: GS(A078930) +매수, 20/25, tr price: 39350
-Thu May 28 10:36:15 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39360
-Thu May 28 10:36:18 2020 [8135010411]: SK디앤디(A210980) -매도, 250/383, tr price: 24879
-Thu May 28 10:36:36 2020 [8135010411]: SK디앤디(A210980) -매도, 319/383, tr price: 24883
-Thu May 28 10:36:44 2020 [8135010411]: 호전실업(A111110) -매도, 20/893, tr price: 10815
-Thu May 28 10:37:05 2020 [8135010411]: SK디앤디(A210980) -매도, 320/383, tr price: 24883
-Thu May 28 10:37:11 2020 [8135010411]: 호전실업(A111110) -매도, 24/893, tr price: 10813
-Thu May 28 10:37:17 2020 [8135010411]: 호전실업(A111110) -매도, 33/893, tr price: 10836
-Thu May 28 10:37:55 2020 [8135010411]: SK디앤디(A210980) -매도, 326/383, tr price: 24883
-Thu May 28 10:38:25 2020 [8135010411]: SK디앤디(A210980) -매도, 373/383, tr price: 24879
-Thu May 28 10:38:33 2020 [8135010411]: 호전실업(A111110) -매도, 34/893, tr price: 10835
-Thu May 28 10:38:37 2020 [8135010411]: 대성홀딩스(A016710) -매도, 350/913, tr price: 11100
-Thu May 28 10:38:46 2020 [8135010411]: 대성홀딩스(A016710) -매도, 913/913, tr price: 11100
-Thu May 28 11:20:09 2020 [8135010411]: 호전실업(A111110) -매도, 666/893, tr price: 10805
-Thu May 28 11:20:21 2020 [8135010411]: 호전실업(A111110) -매도, 667/893, tr price: 10805
-Thu May 28 11:20:30 2020 [8135010411]: 호전실업(A111110) -매도, 668/893, tr price: 10805
-Thu May 28 11:22:15 2020 [8135010411]: 호전실업(A111110) -매도, 670/893, tr price: 10805
-Thu May 28 11:22:25 2020 [8135010411]: 호전실업(A111110) -매도, 671/893, tr price: 10805
-Thu May 28 11:23:17 2020 [8135010411]: 호전실업(A111110) -매도, 676/893, tr price: 10805
-SendOrder: Order Number- 0095476 Thu May 28 11:23:47 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
-Thu May 28 11:23:50 2020 [8135010411]: 현대차(A005380) +매수, 10/10, tr price: 98200
-SendOrder: Order Number- 0095493 Thu May 28 11:23:50 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
-Thu May 28 11:23:55 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 1/2, tr price: 615000
-Thu May 28 11:23:59 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 615000
-SendOrder: Order Number- 0095542 Thu May 28 11:23:59 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
-Thu May 28 11:24:03 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39300
-SendOrder: Order Number- 0095563 Thu May 28 11:24:03 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
-Thu May 28 11:24:08 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 1/6, tr price: 168000
-Thu May 28 11:24:13 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168417
-SendOrder: Order Number- 0095635 Thu May 28 11:24:13 2020 send_order_req 0101 8135010411 1 000660 12 0 03 
-Thu May 28 11:24:13 2020 [8135010411]: SK하이닉스(A000660) +매수, 1/12, tr price: 84700
-Thu May 28 11:24:13 2020 [8135010411]: SK하이닉스(A000660) +매수, 12/12, tr price: 84700
-SendOrder: Order Number- 0095639 Thu May 28 11:24:14 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
-Thu May 28 11:24:15 2020 [8135010411]: SK이노베이션(A096770) +매수, 2/8, tr price: 121500
-Thu May 28 11:24:15 2020 [8135010411]: SK이노베이션(A096770) +매수, 4/8, tr price: 121500
-Thu May 28 11:24:18 2020 [8135010411]: SK이노베이션(A096770) +매수, 5/8, tr price: 121400
-Thu May 28 11:24:18 2020 [8135010411]: SK이노베이션(A096770) +매수, 8/8, tr price: 121250
-SendOrder: Order Number- 0095675 Thu May 28 11:24:19 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
-Thu May 28 11:24:19 2020 [8135010411]: KB금융(A105560) +매수, 3/29, tr price: 34750
-Thu May 28 11:24:20 2020 [8135010411]: KB금융(A105560) +매수, 29/29, tr price: 34750
-SendOrder: Order Number- 0095680 Thu May 28 11:24:20 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
-Thu May 28 11:24:20 2020 [8135010411]: 현대차(A005380) +매수, 2/10, tr price: 98200
-Thu May 28 11:24:20 2020 [8135010411]: 현대차(A005380) +매수, 3/10, tr price: 98200
-Thu May 28 11:24:21 2020 [8135010411]: 현대차(A005380) +매수, 6/10, tr price: 98150
-Thu May 28 11:24:25 2020 [8135010411]: 현대차(A005380) +매수, 7/10, tr price: 98143
-Thu May 28 11:24:25 2020 [8135010411]: 현대차(A005380) +매수, 10/10, tr price: 98160
--- SendOrder Fail: (0) Thu May 28 11:24:25 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:26 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:26 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:26 2020 send_order_req 0101 8135010411 2 183190 161 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:26 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:27 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:27 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:27 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:27 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:28 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:28 2020 send_order_req 0101 8135010411 2 277640 64 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:28 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:28 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:29 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:29 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:29 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:29 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:30 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:30 2020 send_order_req 0101 8135010411 2 210980 214 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:30 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:30 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:31 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:31 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:31 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:31 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:32 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:32 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:32 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:33 2020 send_order_req 0101 8135010411 2 210980 142 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:33 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:33 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:34 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:34 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:34 2020 send_order_req 0101 8135010411 2 210980 142 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:34 2020 send_order_req 0101 8135010411 2 266550 268 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:35 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:35 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:35 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:35 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:24:36 2020 send_order_req 0101 8135010411 2 111110 217 0 03 
-SendOrder: Order Number- 0095922 Thu May 28 11:24:56 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
-Thu May 28 11:25:00 2020 [8135010411]: GS(A078930) +매수, 1/25, tr price: 39300
-Thu May 28 11:25:01 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39300
-SendOrder: Order Number- 0095978 Thu May 28 11:25:02 2020 send_order_req 0101 8135010411 1 122630 88 0 03 
-Thu May 28 11:25:02 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 1/88, tr price: 11365
-Thu May 28 11:25:04 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 2/88, tr price: 11365
-Thu May 28 11:25:04 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 3/88, tr price: 11365
-Thu May 28 11:25:06 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 4/88, tr price: 11365
-SendOrder: Order Number- 0095978 Thu May 28 11:25:07 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
-SendOrder: Order Number- 0096001 Thu May 28 11:25:07 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-SendOrder: Order Number- 0096001 Thu May 28 11:25:08 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:08 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-Thu May 28 11:25:08 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 5/88, tr price: 11365
--- SendOrder Fail: (0) Thu May 28 11:25:08 2020 send_order_req 0101 8135010411 2 183190 161 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:08 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:09 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:09 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
-Thu May 28 11:25:09 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 10/88, tr price: 11365
--- SendOrder Fail: (0) Thu May 28 11:25:09 2020 send_order_req 0101 8135010411 2 277640 288 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:09 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-Thu May 28 11:25:09 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 11/88, tr price: 11365
--- SendOrder Fail: (0) Thu May 28 11:25:09 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:10 2020 send_order_req 0101 8135010411 2 277640 64 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:10 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
-Thu May 28 11:25:10 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 12/88, tr price: 11365
--- SendOrder Fail: (0) Thu May 28 11:25:10 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:10 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:11 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
-Thu May 28 11:25:11 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 88/88, tr price: 11365
--- SendOrder Fail: (0) Thu May 28 11:25:11 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:11 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:11 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:11 2020 send_order_req 0101 8135010411 2 210980 214 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:12 2020 send_order_req 0101 8135010411 2 266550 272 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:12 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:12 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:12 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:13 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:13 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:13 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:13 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:13 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:14 2020 send_order_req 0101 8135010411 2 210980 142 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:14 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:14 2020 send_order_req 0101 8135010411 2 285010 939 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:14 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:15 2020 send_order_req 0101 8135010411 2 310080 275 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:15 2020 send_order_req 0101 8135010411 2 210980 142 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:15 2020 send_order_req 0101 8135010411 2 266550 268 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:15 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:15 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:16 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:16 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:16 2020 send_order_req 0101 8135010411 2 111110 217 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:16 2020 send_order_req 0101 8135010411 2 005380 20 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:17 2020 send_order_req 0101 8135010411 2 105560 29 0 03 
--- SendOrder Fail: (0) Thu May 28 11:25:17 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+SendOrder: Order Number- 0098877 Thu May 28 11:36:20 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+Thu May 28 11:36:21 2020 [8135010411]: 삼성SDI(A006400) +매수, 1/3, tr price: 360500
+Thu May 28 11:36:22 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 360500
+SendOrder: Order Number- 0098895 Thu May 28 11:36:23 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+Thu May 28 11:36:25 2020 [8135010411]: SK이노베이션(A096770) +매수, 7/8, tr price: 121000
+Thu May 28 11:36:30 2020 [8135010411]: SK이노베이션(A096770) +매수, 8/8, tr price: 121000
+SendOrder: Order Number- 0098951 Thu May 28 11:36:31 2020 send_order_req 0101 8135010411 1 122630 88 0 03 
+Thu May 28 11:36:32 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 2/88, tr price: 11350
+Thu May 28 11:36:33 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 65/88, tr price: 11350
+Thu May 28 11:36:34 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 68/88, tr price: 11350
+Thu May 28 11:36:38 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 70/88, tr price: 11350
+Thu May 28 11:36:38 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 88/88, tr price: 11350
+-- SendOrder Fail: (0) Thu May 28 11:36:39 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:36:39 2020 send_order_req 0101 8135010411 2 111110 186 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:36:39 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+SendOrder: Order Number- 0099019 Thu May 28 11:36:49 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+Thu May 28 11:36:53 2020 [8135010411]: CJ제일제당(A097950) +매수, 2/3, tr price: 299500
+Thu May 28 11:37:02 2020 [8135010411]: CJ제일제당(A097950) +매수, 3/3, tr price: 299667
+SendOrder: Order Number- 0099055 Thu May 28 11:37:02 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
+SendOrder: Order Number- 0099055 Thu May 28 11:37:04 2020 send_order_req 0101 8135010411 1 078930 26 0 03 
+SendOrder: Order Number- 0099064 Thu May 28 11:37:04 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+SendOrder: Order Number- 0099064 Thu May 28 11:37:04 2020 send_order_req 0101 8135010411 2 111110 186 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:37:04 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:37:04 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:37:05 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+SendOrder: Order Number- 0099067 Thu May 28 11:37:05 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+Thu May 28 11:37:58 2020 [8135010411]: 호전실업(A111110) -매도, 27/210, tr price: 10813
+Thu May 28 11:38:16 2020 [8135010411]: 호전실업(A111110) -매도, 28/210, tr price: 10813
+Thu May 28 11:39:03 2020 [8135010411]: 호전실업(A111110) -매도, 128/210, tr price: 10842
+Thu May 28 11:39:35 2020 [8135010411]: 호전실업(A111110) -매도, 129/210, tr price: 10841
+Thu May 28 11:39:58 2020 [8135010411]: 미원상사(A002840) -매도, 2/71, tr price: 70700
+Thu May 28 11:40:04 2020 [8135010411]: 호전실업(A111110) -매도, 133/210, tr price: 10840
+Thu May 28 11:40:31 2020 [8135010411]: 미원상사(A002840) -매도, 7/71, tr price: 70771
+Thu May 28 11:40:36 2020 [8135010411]: 호전실업(A111110) -매도, 134/210, tr price: 10841
+SendOrder: Order Number- 0100027 Thu May 28 11:40:45 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
+Thu May 28 11:40:47 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 614000
+SendOrder: Order Number- 0100036 Thu May 28 11:40:47 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+Thu May 28 11:40:48 2020 [8135010411]: 카카오(A035720) +매수, 4/4, tr price: 261000
+SendOrder: Order Number- 0100039 Thu May 28 11:40:48 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
+Thu May 28 11:40:50 2020 [8135010411]: 호전실업(A111110) -매도, 135/210, tr price: 10840
+Thu May 28 11:40:51 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168500
+-- SendOrder Fail: (0) Thu May 28 11:40:52 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:40:52 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:40:52 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:40:52 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:40:53 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+SendOrder: Order Number- 0100053 Thu May 28 11:40:53 2020 send_order_req 0101 8135010411 2 097950 3 0 03 
+Thu May 28 11:40:57 2020 [8135010411]: CJ제일제당(A097950) -매도, 1/3, tr price: 300000
+Thu May 28 11:41:01 2020 [8135010411]: 호전실업(A111110) -매도, 137/210, tr price: 10841
+Thu May 28 11:41:06 2020 [8135010411]: CJ제일제당(A097950) -매도, 3/3, tr price: 300000
+Thu May 28 11:41:29 2020 [8135010411]: 호전실업(A111110) -매도, 138/210, tr price: 10840
+Thu May 28 11:43:14 2020 [8135010411]: ARIRANG 중형주저변동50(A266550) -매도, 62/264, tr price: 8195
+Thu May 28 11:43:24 2020 [8135010411]: 호전실업(A111110) -매도, 139/210, tr price: 10840
+Thu May 28 11:43:24 2020 [8135010411]: 호전실업(A111110) -매도, 140/210, tr price: 10840
+SendOrder: Order Number- 0100722 Thu May 28 11:43:45 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+Thu May 28 11:43:47 2020 [8135010411]: SK(A034730) +매수, 3/4, tr price: 254000
+Thu May 28 11:43:48 2020 [8135010411]: SK(A034730) +매수, 4/4, tr price: 253875
+SendOrder: Order Number- 0100733 Thu May 28 11:43:48 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
+Thu May 28 11:43:49 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 3/6, tr price: 168000
+Thu May 28 11:43:51 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168000
+SendOrder: Order Number- 0100740 Thu May 28 11:43:51 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+Thu May 28 11:43:52 2020 [8135010411]: 현대차(A005380) +매수, 4/10, tr price: 98200
+Thu May 28 11:43:53 2020 [8135010411]: 현대차(A005380) +매수, 6/10, tr price: 98167
+Thu May 28 11:43:55 2020 [8135010411]: 현대차(A005380) +매수, 10/10, tr price: 98140
+Thu May 28 11:43:55 2020 [8135010411]: 호전실업(A111110) -매도, 142/210, tr price: 10840
+-- SendOrder Fail: (0) Thu May 28 11:43:55 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:56 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:56 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:56 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:56 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:57 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:57 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:43:57 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+Thu May 28 11:44:15 2020 [8135010411]: 호전실업(A111110) -매도, 146/210, tr price: 10839
+Thu May 28 11:45:18 2020 [8135010411]: 호전실업(A111110) -매도, 147/210, tr price: 10838
+Thu May 28 11:45:59 2020 [8135010411]: 호전실업(A111110) -매도, 148/210, tr price: 10838
+SendOrder: Order Number- 0101547 Thu May 28 11:46:45 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
+Thu May 28 11:46:52 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 3/6, tr price: 168500
+Thu May 28 11:46:57 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168250
+SendOrder: Order Number- 0101660 Thu May 28 11:46:57 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+Thu May 28 11:47:03 2020 [8135010411]: 호전실업(A111110) -매도, 150/210, tr price: 10838
+Thu May 28 11:47:07 2020 [8135010411]: LG(A003550) +매수, 11/15, tr price: 64600
+Thu May 28 11:47:18 2020 [8135010411]: LG(A003550) +매수, 13/15, tr price: 64600
+Thu May 28 11:47:20 2020 [8135010411]: 호전실업(A111110) -매도, 151/210, tr price: 10838
+Thu May 28 11:47:31 2020 [8135010411]: LG(A003550) +매수, 15/15, tr price: 64613
+SendOrder: Order Number- 0101764 Thu May 28 11:47:31 2020 send_order_req 0101 8135010411 1 018260 5 0 03 
+Thu May 28 11:47:32 2020 [8135010411]: 삼성에스디에스(A018260) +매수, 2/5, tr price: 187000
+Thu May 28 11:47:34 2020 [8135010411]: 삼성에스디에스(A018260) +매수, 3/5, tr price: 187000
+Thu May 28 11:47:36 2020 [8135010411]: 삼성에스디에스(A018260) +매수, 4/5, tr price: 187000
+Thu May 28 11:47:37 2020 [8135010411]: 삼성에스디에스(A018260) +매수, 5/5, tr price: 187000
+-- SendOrder Fail: (0) Thu May 28 11:47:37 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:37 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:37 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:38 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:38 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:38 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:38 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:47:39 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+SendOrder: Order Number- 0101789 Thu May 28 11:47:39 2020 send_order_req 0101 8135010411 2 122630 88 0 03 
+Thu May 28 11:47:39 2020 [8135010411]: KODEX 레버리지(A122630) -매도, 88/88, tr price: 11335
+SendOrder: Order Number- 0101791 Thu May 28 11:47:40 2020 send_order_req 0101 8135010411 2 207940 4 0 03 
+Thu May 28 11:47:42 2020 [8135010411]: 삼성바이오로직스(A207940) -매도, 4/4, tr price: 615000
+SendOrder: Order Number- 0101793 Thu May 28 11:47:42 2020 send_order_req 0101 8135010411 2 005380 10 0 03 
+Thu May 28 11:47:50 2020 [8135010411]: 현대차(A005380) -매도, 3/10, tr price: 98100
+Thu May 28 11:47:50 2020 [8135010411]: 현대차(A005380) -매도, 10/10, tr price: 98100
+Thu May 28 11:48:26 2020 [8135010411]: 호전실업(A111110) -매도, 155/210, tr price: 10837
+Thu May 28 11:48:33 2020 [8135010411]: 호전실업(A111110) -매도, 156/210, tr price: 10837
+Thu May 28 11:49:07 2020 [8135010411]: 호전실업(A111110) -매도, 157/210, tr price: 10837
+SendOrder: Order Number- 0102209 Thu May 28 11:49:45 2020 send_order_req 0101 8135010411 1 122630 88 0 03 
+Thu May 28 11:49:47 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 88/88, tr price: 11325
+SendOrder: Order Number- 0102219 Thu May 28 11:49:47 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
+Thu May 28 11:49:50 2020 [8135010411]: TIGER 배당성장(A211560) -매도, 1/80, tr price: 13085
+Thu May 28 11:49:51 2020 [8135010411]: GS(A078930) +매수, 2/25, tr price: 39300
+Thu May 28 11:49:51 2020 [8135010411]: GS(A078930) +매수, 3/25, tr price: 39283
+Thu May 28 11:49:57 2020 [8135010411]: GS(A078930) +매수, 14/25, tr price: 39257
+Thu May 28 11:49:58 2020 [8135010411]: GS(A078930) +매수, 15/25, tr price: 39257
+Thu May 28 11:50:09 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39274
+SendOrder: Order Number- 0102297 Thu May 28 11:50:09 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+Thu May 28 11:50:10 2020 [8135010411]: 현대차(A005380) +매수, 4/10, tr price: 98100
+Thu May 28 11:50:11 2020 [8135010411]: 현대차(A005380) +매수, 10/10, tr price: 98040
+-- SendOrder Fail: (0) Thu May 28 11:50:11 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:12 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:12 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:12 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:13 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:13 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:13 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:50:13 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+SendOrder: Order Number- 0102306 Thu May 28 11:50:14 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+Thu May 28 11:50:17 2020 [8135010411]: 삼성에스디에스(A018260) -매도, 3/5, tr price: 187500
+Thu May 28 11:50:19 2020 [8135010411]: 삼성에스디에스(A018260) -매도, 4/5, tr price: 187500
+Thu May 28 11:50:21 2020 [8135010411]: 호전실업(A111110) -매도, 159/210, tr price: 10837
+Thu May 28 11:50:28 2020 [8135010411]: 삼성에스디에스(A018260) -매도, 5/5, tr price: 187500
+-- SendOrder Fail: (0) Thu May 28 11:50:28 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+SendOrder: Order Number- 0102363 Thu May 28 11:50:28 2020 send_order_req 0101 8135010411 2 006400 3 0 03 
+Thu May 28 11:50:29 2020 [8135010411]: 삼성SDI(A006400) -매도, 3/3, tr price: 359500
+Thu May 28 11:51:08 2020 [8135010411]: 호전실업(A111110) -매도, 161/210, tr price: 10836
+Thu May 28 11:52:01 2020 [8135010411]: 호전실업(A111110) -매도, 164/210, tr price: 10837
+Thu May 28 11:52:39 2020 [8135010411]: 호전실업(A111110) -매도, 168/210, tr price: 10836
+SendOrder: Order Number- 0102823 Thu May 28 11:52:45 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+Thu May 28 11:52:48 2020 [8135010411]: SK(A034730) +매수, 4/4, tr price: 253500
+SendOrder: Order Number- 0102833 Thu May 28 11:52:48 2020 send_order_req 0101 8135010411 1 000660 12 0 03 
+Thu May 28 11:52:48 2020 [8135010411]: SK하이닉스(A000660) +매수, 8/12, tr price: 84100
+Thu May 28 11:52:49 2020 [8135010411]: SK하이닉스(A000660) +매수, 12/12, tr price: 84067
+SendOrder: Order Number- 0102838 Thu May 28 11:52:50 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+Thu May 28 11:52:51 2020 [8135010411]: 카카오(A035720) +매수, 1/4, tr price: 261000
+Thu May 28 11:52:52 2020 [8135010411]: 카카오(A035720) +매수, 3/4, tr price: 261000
+Thu May 28 11:52:53 2020 [8135010411]: 카카오(A035720) +매수, 4/4, tr price: 261000
+-- SendOrder Fail: (0) Thu May 28 11:52:53 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:53 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:53 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:54 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:54 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:54 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:55 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:55 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:52:55 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0102850 Thu May 28 11:52:55 2020 send_order_req 0101 8135010411 2 090430 18 0 03 
+Thu May 28 11:52:56 2020 [8135010411]: 호전실업(A111110) -매도, 169/210, tr price: 10836
+Thu May 28 11:52:59 2020 [8135010411]: 아모레퍼시픽(A090430) -매도, 18/18, tr price: 168500
+SendOrder: Order Number- 0102859 Thu May 28 11:52:59 2020 send_order_req 0101 8135010411 2 078930 51 0 03 
+Thu May 28 11:52:59 2020 [8135010411]: GS(A078930) -매도, 1/51, tr price: 39250
+Thu May 28 11:53:03 2020 [8135010411]: GS(A078930) -매도, 8/51, tr price: 39250
+Thu May 28 11:53:09 2020 [8135010411]: GS(A078930) -매도, 9/51, tr price: 39250
+Thu May 28 11:53:15 2020 [8135010411]: GS(A078930) -매도, 21/51, tr price: 39250
+Thu May 28 11:53:15 2020 [8135010411]: GS(A078930) -매도, 22/51, tr price: 39250
+Thu May 28 11:53:19 2020 [8135010411]: GS(A078930) -매도, 51/51, tr price: 39278
+Thu May 28 11:53:48 2020 [8135010411]: 호전실업(A111110) -매도, 172/210, tr price: 10835
+Thu May 28 11:54:50 2020 [8135010411]: 호전실업(A111110) -매도, 173/210, tr price: 10835
+Thu May 28 11:55:38 2020 [8135010411]: 호전실업(A111110) -매도, 175/210, tr price: 10835
+SendOrder: Order Number- 0103577 Thu May 28 11:55:45 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+Thu May 28 11:55:47 2020 [8135010411]: KB금융(A105560) +매수, 20/29, tr price: 34700
+Thu May 28 11:55:48 2020 [8135010411]: KB금융(A105560) +매수, 22/29, tr price: 34695
+Thu May 28 11:55:49 2020 [8135010411]: KB금융(A105560) +매수, 29/29, tr price: 34697
+SendOrder: Order Number- 0103598 Thu May 28 11:55:50 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+Thu May 28 11:55:53 2020 [8135010411]: SK(A034730) +매수, 4/4, tr price: 253500
+-- SendOrder Fail: (0) Thu May 28 11:55:53 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:53 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:54 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:54 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:54 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:55 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:55 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:55 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:56 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:55:56 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+Thu May 28 11:56:16 2020 [8135010411]: 호전실업(A111110) -매도, 176/210, tr price: 10835
+Thu May 28 11:56:33 2020 [8135010411]: 호전실업(A111110) -매도, 178/210, tr price: 10835
+Thu May 28 11:56:45 2020 [8135010411]: 호전실업(A111110) -매도, 179/210, tr price: 10835
+Thu May 28 11:56:49 2020 [8135010411]: 호전실업(A111110) -매도, 183/210, tr price: 10834
+Thu May 28 11:57:31 2020 [8135010411]: 호전실업(A111110) -매도, 184/210, tr price: 10834
+Thu May 28 11:58:39 2020 [8135010411]: 호전실업(A111110) -매도, 185/210, tr price: 10834
+SendOrder: Order Number- 0104371 Thu May 28 11:58:45 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
+Thu May 28 11:58:51 2020 [8135010411]: GS(A078930) +매수, 1/25, tr price: 39300
+Thu May 28 11:58:51 2020 [8135010411]: 호전실업(A111110) -매도, 186/210, tr price: 10834
+Thu May 28 11:58:58 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39348
+SendOrder: Order Number- 0104416 Thu May 28 11:58:58 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+Thu May 28 11:59:01 2020 [8135010411]: SK(A034730) +매수, 4/4, tr price: 253500
+SendOrder: Order Number- 0104434 Thu May 28 11:59:01 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
+Thu May 28 11:59:02 2020 [8135010411]: NAVER(A035420) +매수, 1/4, tr price: 232000
+Thu May 28 11:59:03 2020 [8135010411]: NAVER(A035420) +매수, 3/4, tr price: 232000
+Thu May 28 11:59:06 2020 [8135010411]: NAVER(A035420) +매수, 4/4, tr price: 232000
+-- SendOrder Fail: (0) Thu May 28 11:59:06 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:07 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:07 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:07 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:08 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:08 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:08 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:08 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:09 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:09 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:09 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:09 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:10 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+SendOrder: Order Number- 0104465 Thu May 28 11:59:10 2020 send_order_req 0101 8135010411 2 005380 10 0 03 
+Thu May 28 11:59:11 2020 [8135010411]: 현대차(A005380) -매도, 10/10, tr price: 98000
+Thu May 28 11:59:12 2020 [8135010411]: 호전실업(A111110) -매도, 188/210, tr price: 10834
+-- SendOrder Fail: (0) Thu May 28 11:59:12 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 11:59:12 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+Thu May 28 12:00:34 2020 [8135010411]: 호전실업(A111110) -매도, 189/210, tr price: 10834
+Thu May 28 12:01:01 2020 [8135010411]: 호전실업(A111110) -매도, 193/210, tr price: 10833
+Thu May 28 12:01:43 2020 [8135010411]: 호전실업(A111110) -매도, 194/210, tr price: 10833
+SendOrder: Order Number- 0105070 Thu May 28 12:01:45 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
+Thu May 28 12:01:47 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 2/6, tr price: 168000
+Thu May 28 12:01:49 2020 [8135010411]: 아모레퍼시픽(A090430) +매수, 6/6, tr price: 168000
+SendOrder: Order Number- 0105084 Thu May 28 12:01:49 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
+Thu May 28 12:01:51 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 1/2, tr price: 614000
+Thu May 28 12:01:55 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 614000
+-- SendOrder Fail: (0) Thu May 28 12:01:55 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:55 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:56 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:56 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:56 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:56 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:57 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:57 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:57 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:57 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:58 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:58 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:58 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:58 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:01:59 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+SendOrder: Order Number- 0105136 Thu May 28 12:01:59 2020 send_order_req 0101 8135010411 2 000660 12 0 03 
+Thu May 28 12:02:00 2020 [8135010411]: SK하이닉스(A000660) -매도, 1/12, tr price: 84000
+Thu May 28 12:02:00 2020 [8135010411]: SK하이닉스(A000660) -매도, 5/12, tr price: 84080
+Thu May 28 12:02:00 2020 [8135010411]: SK하이닉스(A000660) -매도, 12/12, tr price: 84033
+-- SendOrder Fail: (0) Thu May 28 12:02:01 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+SendOrder: Order Number- 0105144 Thu May 28 12:02:01 2020 send_order_req 0101 8135010411 2 105560 29 0 03 
+Thu May 28 12:02:01 2020 [8135010411]: KB금융(A105560) -매도, 20/29, tr price: 34650
+Thu May 28 12:02:02 2020 [8135010411]: KB금융(A105560) -매도, 21/29, tr price: 34652
+Thu May 28 12:02:03 2020 [8135010411]: KB금융(A105560) -매도, 23/29, tr price: 34652
+Thu May 28 12:02:03 2020 [8135010411]: KB금융(A105560) -매도, 29/29, tr price: 34662
+Thu May 28 12:02:09 2020 [8135010411]: 호전실업(A111110) -매도, 196/210, tr price: 10833
+Thu May 28 12:02:28 2020 [8135010411]: 호전실업(A111110) -매도, 197/210, tr price: 10833
+Thu May 28 12:04:00 2020 [8135010411]: 호전실업(A111110) -매도, 198/210, tr price: 10833
+Thu May 28 12:04:22 2020 [8135010411]: 호전실업(A111110) -매도, 199/210, tr price: 10833
+SendOrder: Order Number- 0105808 Thu May 28 12:04:45 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+Thu May 28 12:04:45 2020 [8135010411]: 호전실업(A111110) -매도, 201/210, tr price: 10833
+Thu May 28 12:04:49 2020 [8135010411]: 엔씨소프트(A036570) +매수, 1/1, tr price: 782000
+SendOrder: Order Number- 0105825 Thu May 28 12:04:49 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+Thu May 28 12:04:55 2020 [8135010411]: SK텔레콤(A017670) +매수, 1/5, tr price: 211500
+Thu May 28 12:04:55 2020 [8135010411]: SK텔레콤(A017670) +매수, 2/5, tr price: 211500
+Thu May 28 12:04:56 2020 [8135010411]: SK텔레콤(A017670) +매수, 3/5, tr price: 211500
+Thu May 28 12:04:59 2020 [8135010411]: SK텔레콤(A017670) +매수, 5/5, tr price: 211300
+SendOrder: Order Number- 0105878 Thu May 28 12:04:59 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
+Thu May 28 12:05:10 2020 [8135010411]: GS(A078930) +매수, 7/25, tr price: 39250
+Thu May 28 12:05:11 2020 [8135010411]: GS(A078930) +매수, 11/25, tr price: 39250
+Thu May 28 12:05:12 2020 [8135010411]: 호전실업(A111110) -매도, 205/210, tr price: 10832
+Thu May 28 12:05:13 2020 [8135010411]: GS(A078930) +매수, 12/25, tr price: 39250
+Thu May 28 12:05:18 2020 [8135010411]: GS(A078930) +매수, 16/25, tr price: 39263
+Thu May 28 12:05:26 2020 [8135010411]: GS(A078930) +매수, 17/25, tr price: 39262
+Thu May 28 12:05:38 2020 [8135010411]: GS(A078930) +매수, 18/25, tr price: 39261
+Thu May 28 12:05:49 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39272
+-- SendOrder Fail: (0) Thu May 28 12:05:50 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:50 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:50 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:51 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:51 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:51 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:51 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:52 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:52 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:52 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:52 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:53 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:53 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:53 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:53 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:05:54 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+SendOrder: Order Number- 0106065 Thu May 28 12:05:54 2020 send_order_req 0101 8135010411 2 122630 88 0 03 
+Thu May 28 12:05:55 2020 [8135010411]: KODEX 레버리지(A122630) -매도, 1/88, tr price: 11290
+Thu May 28 12:05:55 2020 [8135010411]: KODEX 레버리지(A122630) -매도, 2/88, tr price: 11290
+Thu May 28 12:05:56 2020 [8135010411]: KODEX 레버리지(A122630) -매도, 88/88, tr price: 11290
+SendOrder: Order Number- 0106074 Thu May 28 12:05:57 2020 send_order_req 0101 8135010411 2 078930 25 0 03 
+Thu May 28 12:06:01 2020 [8135010411]: GS(A078930) -매도, 11/25, tr price: 39250
+Thu May 28 12:06:02 2020 [8135010411]: GS(A078930) -매도, 12/25, tr price: 39250
+Thu May 28 12:06:05 2020 [8135010411]: GS(A078930) -매도, 13/25, tr price: 39250
+Thu May 28 12:06:06 2020 [8135010411]: GS(A078930) -매도, 20/25, tr price: 39250
+Thu May 28 12:06:13 2020 [8135010411]: GS(A078930) -매도, 25/25, tr price: 39260
+Thu May 28 12:06:34 2020 [8135010411]: 호전실업(A111110) -매도, 207/210, tr price: 10832
+Thu May 28 12:06:46 2020 [8135010411]: TIGER 배당성장(A211560) -매도, 80/80, tr price: 13055
+SendOrder: Order Number- 0106556 Thu May 28 12:07:45 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+Thu May 28 12:07:46 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 357000
+SendOrder: Order Number- 0106560 Thu May 28 12:07:47 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+Thu May 28 12:07:49 2020 [8135010411]: KB금융(A105560) +매수, 1/29, tr price: 34650
+Thu May 28 12:07:49 2020 [8135010411]: KB금융(A105560) +매수, 29/29, tr price: 34602
+SendOrder: Order Number- 0106564 Thu May 28 12:07:49 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+Thu May 28 12:07:50 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 16/89, tr price: 11265
+Thu May 28 12:07:50 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 21/89, tr price: 11265
+Thu May 28 12:07:50 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 35/89, tr price: 11265
+Thu May 28 12:07:50 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 46/89, tr price: 11265
+Thu May 28 12:07:50 2020 [8135010411]: KODEX 레버리지(A122630) +매수, 89/89, tr price: 11263
+-- SendOrder Fail: (0) Thu May 28 12:07:51 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:51 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:51 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:51 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:52 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:52 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:52 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:53 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:53 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:53 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:53 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:54 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:54 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:54 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:07:55 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+SendOrder: Order Number- 0106594 Thu May 28 12:07:55 2020 send_order_req 0101 8135010411 2 035420 4 0 03 
+Thu May 28 12:07:55 2020 [8135010411]: NAVER(A035420) -매도, 1/4, tr price: 231500
+Thu May 28 12:07:56 2020 [8135010411]: NAVER(A035420) -매도, 4/4, tr price: 231875
+SendOrder: Order Number- 0106601 Thu May 28 12:07:56 2020 send_order_req 0101 8135010411 2 036570 1 0 03 
+Thu May 28 12:07:58 2020 [8135010411]: 호전실업(A111110) -매도, 209/210, tr price: 10832
+Thu May 28 12:08:05 2020 [8135010411]: 엔씨소프트(A036570) -매도, 1/1, tr price: 781000
+SendOrder: Order Number- 0106641 Thu May 28 12:08:06 2020 send_order_req 0101 8135010411 2 035720 8 0 03 
+Thu May 28 12:08:07 2020 [8135010411]: 카카오(A035720) -매도, 8/8, tr price: 260500
+Thu May 28 12:08:10 2020 [8135010411]: 호전실업(A111110) -매도, 210/210, tr price: 10832
+Thu May 28 12:10:31 2020 [8135010411]: 미원상사(A002840) -매도, 57/71, tr price: 70796
+SendOrder: Order Number- 0107669 Thu May 28 12:11:01 2020 send_order_req 0101 8135010411 1 078930 25 0 03 
+Thu May 28 12:11:03 2020 [8135010411]: GS(A078930) +매수, 1/25, tr price: 39250
+Thu May 28 12:11:05 2020 [8135010411]: GS(A078930) +매수, 2/25, tr price: 39250
+Thu May 28 12:11:10 2020 [8135010411]: GS(A078930) +매수, 14/25, tr price: 39250
+Thu May 28 12:11:14 2020 [8135010411]: GS(A078930) +매수, 15/25, tr price: 39250
+Thu May 28 12:11:15 2020 [8135010411]: GS(A078930) +매수, 18/25, tr price: 39250
+Thu May 28 12:11:20 2020 [8135010411]: GS(A078930) +매수, 19/25, tr price: 39250
+Thu May 28 12:11:20 2020 [8135010411]: GS(A078930) +매수, 20/25, tr price: 39250
+Thu May 28 12:11:25 2020 [8135010411]: GS(A078930) +매수, 25/25, tr price: 39250
+SendOrder: Order Number- 0107838 Thu May 28 12:11:26 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+Thu May 28 12:11:28 2020 [8135010411]: SK이노베이션(A096770) +매수, 5/8, tr price: 120000
+Thu May 28 12:11:32 2020 [8135010411]: SK이노베이션(A096770) +매수, 8/8, tr price: 120000
+-- SendOrder Fail: (0) Thu May 28 12:11:32 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+SendOrder: Order Number- 0107873 Thu May 28 12:11:32 2020 send_order_req 0101 8135010411 2 096770 8 0 03 
+Thu May 28 12:11:33 2020 [8135010411]: SK이노베이션(A096770) -매도, 1/8, tr price: 120000
+Thu May 28 12:11:39 2020 [8135010411]: SK이노베이션(A096770) -매도, 8/8, tr price: 119563
+-- SendOrder Fail: (0) Thu May 28 12:11:39 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:39 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:40 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:40 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:40 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:40 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:41 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:41 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:41 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:42 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:42 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:42 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:42 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:43 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:11:43 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+SendOrder: Order Number- 0107946 Thu May 28 12:11:43 2020 send_order_req 0101 8135010411 2 105560 29 0 03 
+Thu May 28 12:11:44 2020 [8135010411]: KB금융(A105560) -매도, 29/29, tr price: 34600
+-- SendOrder Fail: (0) Thu May 28 12:11:45 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0107961 Thu May 28 12:11:45 2020 send_order_req 0101 8135010411 2 017670 5 0 03 
+Thu May 28 12:11:47 2020 [8135010411]: SK텔레콤(A017670) -매도, 5/5, tr price: 211500
+Thu May 28 12:12:35 2020 [8135010411]: KBSTAR 200중공업(A285010) -매도, 1/938, tr price: 6665
+SendOrder: Order Number- 0108666 Thu May 28 12:13:46 2020 send_order_req 0101 8135010411 1 018260 5 0 03 
+Thu May 28 12:13:47 2020 [8135010411]: 삼성에스디에스(A018260) +매수, 5/5, tr price: 188500
+SendOrder: Order Number- 0108672 Thu May 28 12:13:47 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+Thu May 28 12:13:50 2020 [8135010411]: LG(A003550) +매수, 15/15, tr price: 64800
+SendOrder: Order Number- 0108688 Thu May 28 12:13:50 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+Thu May 28 12:13:53 2020 [8135010411]: 카카오(A035720) +매수, 3/4, tr price: 261500
+Thu May 28 12:13:54 2020 [8135010411]: 카카오(A035720) +매수, 4/4, tr price: 261500
+-- SendOrder Fail: (0) Thu May 28 12:13:54 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:54 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:54 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:55 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:55 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:56 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:56 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:56 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:57 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:57 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:57 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:58 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:58 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:58 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:13:58 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0108744 Thu May 28 12:13:59 2020 send_order_req 0101 8135010411 2 003550 15 0 03 
+Thu May 28 12:14:03 2020 [8135010411]: LG(A003550) -매도, 15/15, tr price: 64800
+-- SendOrder Fail: (0) Thu May 28 12:14:03 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0108814 Thu May 28 12:14:04 2020 send_order_req 0101 8135010411 2 078930 50 0 03 
+Thu May 28 12:14:08 2020 [8135010411]: GS(A078930) -매도, 8/50, tr price: 39250
+Thu May 28 12:14:10 2020 [8135010411]: GS(A078930) -매도, 50/50, tr price: 39292
+SendOrder: Order Number- 0109672 Thu May 28 12:16:46 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+Thu May 28 12:16:46 2020 [8135010411]: 삼성전자(A005930) +매수, 2/20, tr price: 50600
+Thu May 28 12:16:47 2020 [8135010411]: 삼성전자(A005930) +매수, 3/20, tr price: 50567
+Thu May 28 12:16:49 2020 [8135010411]: 삼성전자(A005930) +매수, 20/20, tr price: 50510
+SendOrder: Order Number- 0109699 Thu May 28 12:16:49 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+Thu May 28 12:16:50 2020 [8135010411]: KB금융(A105560) +매수, 13/29, tr price: 34600
+Thu May 28 12:16:51 2020 [8135010411]: KB금융(A105560) +매수, 23/29, tr price: 34578
+Thu May 28 12:16:52 2020 [8135010411]: KB금융(A105560) +매수, 29/29, tr price: 34583
+SendOrder: Order Number- 0109718 Thu May 28 12:16:52 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+Thu May 28 12:16:53 2020 [8135010411]: KB금융(A105560) +매수, 29/29, tr price: 34550
+-- SendOrder Fail: (0) Thu May 28 12:16:53 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:53 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:54 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:54 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:54 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:55 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:55 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:55 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:56 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:56 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:57 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:57 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:57 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:57 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:58 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:16:58 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0109758 Thu May 28 12:16:58 2020 send_order_req 0101 8135010411 2 207940 2 0 03 
+Thu May 28 12:17:02 2020 [8135010411]: 삼성바이오로직스(A207940) -매도, 2/2, tr price: 613000
+SendOrder: Order Number- 0109780 Thu May 28 12:17:02 2020 send_order_req 0101 8135010411 2 003550 15 0 03 
+Thu May 28 12:17:26 2020 [8135010411]: LG(A003550) -매도, 14/15, tr price: 64700
+Thu May 28 12:17:34 2020 [8135010411]: LG(A003550) -매도, 15/15, tr price: 64700
+SendOrder: Order Number- 0109911 Thu May 28 12:17:34 2020 send_order_req 0101 8135010411 2 006400 3 0 03 
+Thu May 28 12:17:34 2020 [8135010411]: 삼성SDI(A006400) -매도, 1/3, tr price: 356500
+Thu May 28 12:17:36 2020 [8135010411]: 삼성SDI(A006400) -매도, 3/3, tr price: 356833
+SendOrder: Order Number- 0110546 Thu May 28 12:19:46 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+Thu May 28 12:19:48 2020 [8135010411]: LG(A003550) +매수, 15/15, tr price: 64700
+SendOrder: Order Number- 0110556 Thu May 28 12:19:49 2020 send_order_req 0101 8135010411 1 000660 12 0 03 
+Thu May 28 12:19:49 2020 [8135010411]: SK하이닉스(A000660) +매수, 9/12, tr price: 83900
+Thu May 28 12:19:50 2020 [8135010411]: SK하이닉스(A000660) +매수, 12/12, tr price: 83875
+SendOrder: Order Number- 0110564 Thu May 28 12:19:50 2020 send_order_req 0101 8135010411 1 207940 2 0 03 
+Thu May 28 12:19:51 2020 [8135010411]: 삼성바이오로직스(A207940) +매수, 2/2, tr price: 612000
+-- SendOrder Fail: (0) Thu May 28 12:19:51 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:52 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:52 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:52 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:53 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:53 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:53 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:53 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:54 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:54 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:54 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:55 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:55 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:55 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:55 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 12:19:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0110598 Thu May 28 12:19:56 2020 send_order_req 0101 8135010411 2 034730 16 0 03 
+Thu May 28 12:19:57 2020 [8135010411]: SK(A034730) -매도, 16/16, tr price: 250500
+SendOrder: Order Number- 0110600 Thu May 28 12:19:57 2020 send_order_req 0101 8135010411 2 005930 20 0 03 
+Thu May 28 12:19:57 2020 [8135010411]: 삼성전자(A005930) -매도, 20/20, tr price: 50400
+SendOrder: Order Number- 0110602 Thu May 28 12:19:57 2020 send_order_req 0101 8135010411 2 122630 89 0 03 
+Thu May 28 12:19:58 2020 [8135010411]: KODEX 레버리지(A122630) -매도, 89/89, tr price: 11265
+Thu May 28 12:20:33 2020 [8135010411]: 미원상사(A002840) -매도, 71/71, tr price: 70738
+SendOrder: Order Number- 0127502 Thu May 28 13:01:29 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+Thu May 28 13:01:31 2020 [8135010411]: 엔씨소프트(A036570) +매수, 1/1, tr price: 781000
+SendOrder: Order Number- 0127514 Thu May 28 13:01:32 2020 send_order_req 0101 8135010411 1 000660 12 0 03 
+Thu May 28 13:01:32 2020 [8135010411]: SK하이닉스(A000660) +매수, 12/12, tr price: 83300
+-- SendOrder Fail: (0) Thu May 28 13:01:32 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:32 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:33 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:33 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:33 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:33 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:34 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:34 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:34 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:35 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:35 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:35 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:35 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:36 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:36 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:36 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:37 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:01:37 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0127558 Thu May 28 13:01:37 2020 send_order_req 0101 8135010411 2 003550 15 0 03 
+Thu May 28 13:01:42 2020 [8135010411]: LG(A003550) -매도, 15/15, tr price: 64600
+SendOrder: Order Number- 0127584 Thu May 28 13:01:42 2020 send_order_req 0101 8135010411 2 035720 4 0 03 
+Thu May 28 13:01:43 2020 [8135010411]: 카카오(A035720) -매도, 4/4, tr price: 260000
+SendOrder: Order Number- 0127590 Thu May 28 13:01:43 2020 send_order_req 0101 8135010411 2 207940 2 0 03 
+Thu May 28 13:01:44 2020 [8135010411]: 삼성바이오로직스(A207940) -매도, 2/2, tr price: 606000
+SendOrder: Order Number- 0127894 Thu May 28 13:02:42 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+Thu May 28 13:02:43 2020 [8135010411]: 삼성SDI(A006400) +매수, 3/3, tr price: 354500
+SendOrder: Order Number- 0127902 Thu May 28 13:02:43 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+Thu May 28 13:02:45 2020 [8135010411]: SK텔레콤(A017670) +매수, 5/5, tr price: 210000
+SendOrder: Order Number- 0127916 Thu May 28 13:02:45 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+Thu May 28 13:02:46 2020 [8135010411]: KB금융(A105560) +매수, 29/29, tr price: 34100
+-- SendOrder Fail: (0) Thu May 28 13:02:46 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:46 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:47 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:47 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:47 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:47 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:48 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:48 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:48 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:48 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:49 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:49 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:49 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:50 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:50 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:50 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:50 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:02:51 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+SendOrder: Order Number- 0127950 Thu May 28 13:02:51 2020 send_order_req 0101 8135010411 2 105560 58 0 03 
+Thu May 28 13:02:53 2020 [8135010411]: KB금융(A105560) -매도, 45/58, tr price: 34100
+Thu May 28 13:02:54 2020 [8135010411]: KB금융(A105560) -매도, 55/58, tr price: 34100
+Thu May 28 13:02:55 2020 [8135010411]: KB금융(A105560) -매도, 58/58, tr price: 34100
+SendOrder: Order Number- 0127961 Thu May 28 13:02:55 2020 send_order_req 0101 8135010411 2 036570 1 0 03 
+Thu May 28 13:03:04 2020 [8135010411]: 엔씨소프트(A036570) -매도, 1/1, tr price: 781000
+-- SendOrder Fail: (0) Thu May 28 13:03:05 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+SendOrder: Order Number- 0128837 Thu May 28 13:05:43 2020 send_order_req 0101 8135010411 1 078930 26 0 03 
+Thu May 28 13:05:44 2020 [8135010411]: GS(A078930) +매수, 1/26, tr price: 38800
+Thu May 28 13:05:47 2020 [8135010411]: GS(A078930) +매수, 8/26, tr price: 38800
+Thu May 28 13:06:04 2020 [8135010411]: GS(A078930) +매수, 10/26, tr price: 38800
+Thu May 28 13:06:04 2020 [8135010411]: GS(A078930) +매수, 11/26, tr price: 38800
+Thu May 28 13:06:12 2020 [8135010411]: GS(A078930) +매수, 26/26, tr price: 38800
+SendOrder: Order Number- 0129065 Thu May 28 13:06:12 2020 send_order_req 0101 8135010411 1 078930 26 0 03 
+Thu May 28 13:06:13 2020 [8135010411]: GS(A078930) +매수, 7/26, tr price: 38800
+Thu May 28 13:06:14 2020 [8135010411]: GS(A078930) +매수, 13/26, tr price: 38800
+Thu May 28 13:06:15 2020 [8135010411]: GS(A078930) +매수, 14/26, tr price: 38800
+Thu May 28 13:06:17 2020 [8135010411]: GS(A078930) +매수, 15/26, tr price: 38800
+Thu May 28 13:06:22 2020 [8135010411]: GS(A078930) +매수, 18/26, tr price: 38800
+Thu May 28 13:06:24 2020 [8135010411]: GS(A078930) +매수, 19/26, tr price: 38800
+Thu May 28 13:06:24 2020 [8135010411]: GS(A078930) +매수, 20/26, tr price: 38800
+Thu May 28 13:06:25 2020 [8135010411]: GS(A078930) +매수, 21/26, tr price: 38800
+Thu May 28 13:06:40 2020 [8135010411]: GS(A078930) +매수, 26/26, tr price: 38800
+SendOrder: Order Number- 0129273 Thu May 28 13:06:40 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+Thu May 28 13:06:41 2020 [8135010411]: SK(A034730) +매수, 4/4, tr price: 248000
+-- SendOrder Fail: (0) Thu May 28 13:06:42 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:42 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:42 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:42 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:43 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:43 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:43 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:43 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:44 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:44 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:44 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:44 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:45 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:45 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:45 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:45 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:46 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:46 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 13:06:46 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+SendOrder: Order Number- 0129307 Thu May 28 13:06:47 2020 send_order_req 0101 8135010411 2 105560 29 0 03 
+Thu May 28 13:06:50 2020 [8135010411]: KB금융(A105560) -매도, 7/29, tr price: 34150
+Thu May 28 13:06:51 2020 [8135010411]: KB금융(A105560) -매도, 8/29, tr price: 34150
+Thu May 28 13:06:52 2020 [8135010411]: KB금융(A105560) -매도, 29/29, tr price: 34150
+-- SendOrder Fail: (0) Thu May 28 13:06:52 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+SendOrder: Order Number- 0129328 Thu May 28 13:06:52 2020 send_order_req 0101 8135010411 2 006400 3 0 03 
+Thu May 28 13:06:54 2020 [8135010411]: 삼성SDI(A006400) -매도, 1/3, tr price: 354000
+Thu May 28 13:06:54 2020 [8135010411]: 삼성SDI(A006400) -매도, 3/3, tr price: 353667
+-- SendOrder Fail: (0) Thu May 28 16:50:27 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:28 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:30 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:31 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:31 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:31 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:31 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:32 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:32 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:32 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:32 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:32 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:33 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:33 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:33 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:33 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:34 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:34 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:34 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:34 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:35 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:35 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:35 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 16:50:35 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:33 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:33 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:33 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:33 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:34 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:34 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:34 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:34 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:35 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:36 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:36 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:36 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:36 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:37 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:37 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:37 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:37 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:37 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:38 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:38 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:38 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:38 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:39 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:39 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:39 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:39 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:40 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:40 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:40 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:40 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:40 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:41 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:41 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:41 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:30:41 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:50 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:50 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:50 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:50 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:50 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:51 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:51 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:51 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:51 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:52 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:52 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:52 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:53 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:53 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:53 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:53 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:54 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:54 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:54 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:54 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:55 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:56 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:56 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:56 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:56 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:57 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:57 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:57 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:57 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:58 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:58 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:58 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:58 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:58 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:59 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:59 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:59 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:40:59 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:46 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:46 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:46 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:46 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:47 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:47 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:47 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:47 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:47 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:48 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:48 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:48 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:48 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:49 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:49 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:49 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:49 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:50 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:50 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:50 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:50 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:51 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:51 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:51 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:51 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:51 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:52 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:52 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:52 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:52 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:53 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:53 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:53 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:53 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:54 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:54 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:54 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:54 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:54 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:43:55 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:09 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:09 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:09 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:09 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:10 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:10 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:10 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:10 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:11 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:11 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:11 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:11 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:12 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:12 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:12 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:12 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:12 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:13 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:13 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:13 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:14 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:14 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:14 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:14 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:15 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:15 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:15 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:15 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:16 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:16 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:16 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:16 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:17 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:17 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:17 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:17 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:18 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:18 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:18 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:18 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:19 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:19 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:19 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:19 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:19 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:20 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:46:20 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:31 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:31 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:31 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:32 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:32 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:32 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:32 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:33 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:33 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:33 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:33 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:34 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:34 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:34 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:34 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:35 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:35 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:35 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:35 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:35 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:36 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:36 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:36 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:37 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:37 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:37 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:37 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:38 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:38 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:38 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:38 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:38 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:39 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:39 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:39 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:39 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:40 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:40 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:40 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:40 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:41 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:41 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:41 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:41 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:42 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:42 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:42 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:42 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:43 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:43 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:43 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:43 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:44 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:48:44 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:05 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:06 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:06 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:06 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:06 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:06 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:07 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:07 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:07 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:07 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:08 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:08 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:08 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:08 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:09 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:09 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:09 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:09 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:09 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:10 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:10 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:10 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:10 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:11 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:11 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:11 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:11 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:12 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:12 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:12 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:12 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:12 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:13 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:13 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:13 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:13 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:14 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:14 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:14 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:14 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:14 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:15 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:15 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:15 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:15 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:15 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:16 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:16 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:16 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:16 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:16 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:17 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:17 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:17 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:17 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:18 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:18 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:18 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:18 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:49:18 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:52:25 2020 send_order_req 0101 8135010411 1 034730 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:52:33 2020 send_order_req 0101 8135010411 2 034730 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:48 2020 send_order_req 0101 8135010411 1 000660 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:53 2020 send_order_req 0101 8135010411 1 003550 15 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:53 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:54 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:54 2020 send_order_req 0101 8135010411 1 035720 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:54 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:54 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:54 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:55 2020 send_order_req 0101 8135010411 1 005380 10 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:55 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:55 2020 send_order_req 0101 8135010411 1 122630 89 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:55 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:56 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:56 2020 send_order_req 0101 8135010411 1 036570 1 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:56 2020 send_order_req 0101 8135010411 1 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:56 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:57 2020 send_order_req 0101 8135010411 1 097950 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:57 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:57 2020 send_order_req 0101 8135010411 1 035420 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:57 2020 send_order_req 0101 8135010411 1 006400 3 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:57 2020 send_order_req 0101 8135010411 1 105560 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:58 2020 send_order_req 0101 8135010411 1 017670 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:58 2020 send_order_req 0101 8135010411 1 096770 8 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:58 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:58 2020 send_order_req 0101 8135010411 1 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:59 2020 send_order_req 0101 8135010411 1 005930 20 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:59 2020 send_order_req 0101 8135010411 2 002840 71 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:59 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:53:59 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:00 2020 send_order_req 0101 8135010411 2 266550 264 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:00 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:00 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:00 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:01 2020 send_order_req 0101 8135010411 2 211560 80 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:01 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:01 2020 send_order_req 0101 8135010411 2 111110 35 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:01 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:01 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:02 2020 send_order_req 0101 8135010411 2 211560 79 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:02 2020 send_order_req 0101 8135010411 2 002840 64 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:02 2020 send_order_req 0101 8135010411 2 322120 31 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:02 2020 send_order_req 0101 8135010411 2 285010 938 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:03 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:03 2020 send_order_req 0101 8135010411 2 266550 202 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:03 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:03 2020 send_order_req 0101 8135010411 2 266550 198 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:04 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:04 2020 send_order_req 0101 8135010411 2 078930 52 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:04 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:04 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:05 2020 send_order_req 0101 8135010411 2 000660 24 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:05 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:05 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:05 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:05 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:06 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:06 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:06 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:06 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:07 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:07 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:07 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:07 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:07 2020 send_order_req 0101 8135010411 2 322120 29 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:08 2020 send_order_req 0101 8135010411 2 018260 5 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:08 2020 send_order_req 0101 8135010411 2 034730 4 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:08 2020 send_order_req 0101 8135010411 2 090430 6 0 03 
+-- SendOrder Fail: (0) Thu May 28 18:54:08 2020 send_order_req 0101 8135010411 2 322120 29 0 03 

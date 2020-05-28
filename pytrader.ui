@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>주문</string>
+     <string>Order</string>
     </property>
     <layout class="QFormLayout" name="formLayout">
      <item row="0" column="0">
@@ -48,12 +48,12 @@
       <widget class="QComboBox" name="comboBox_2">
        <item>
         <property name="text">
-         <string>신규매수</string>
+         <string>Buy</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>신규매도</string>
+         <string>Sell</string>
         </property>
        </item>
       </widget>
@@ -133,7 +133,7 @@
      <item row="7" column="0" colspan="2">
       <widget class="QPushButton" name="pushButton">
        <property name="text">
-        <string>현금주문</string>
+        <string>Send Order</string>
        </property>
       </widget>
      </item>
@@ -149,7 +149,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>잔고 및 보유 종목 현황</string>
+     <string>Status</string>
     </property>
     <widget class="QTableWidget" name="tableWidget">
      <property name="geometry">
@@ -260,7 +260,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>조회</string>
+      <string>Balance</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_3">

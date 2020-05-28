@@ -15,7 +15,7 @@ import random
 MARKET_KOSPI   = 0
 MARKET_KOSDAQ  = 10
 API_REQ_TIME_INTERVAL = 0.2
-AUTOTRADE_INTERVAL = 5*60 # seconds
+AUTOTRADE_INTERVAL = 3*60 # seconds
 ALLOCATION_SIZE = 1000000 # Target amount to be purchased in KRW
 MIN_STOCK_PRICE = 10000 
 
@@ -347,31 +347,36 @@ class Kiwoom(QAxWidget):
             self.set_input_value("계좌번호", account_number)
             self.comm_rq_data("opw00018_req", "opw00018", 2, "2000")
 
-        stock_list = pd.DataFrame(self.opw00018_rawoutput, columns=['name', 'code', 'quantity', 'purchase_price', 'current_price', 'invested_amount', 'current_total', 'eval_profit_loss_price', 'earning_rate'])
+        stock_list = pd.DataFrame(self.opw00018_rawoutput, columns=['name', 'code', 'quantity', 'purchase_price', 
+            'current_price', 'invested_amount', 'current_total', 'eval_profit_loss_price', 'earning_rate'])
         for i in stock_list.index:
             stock_list.at[i, 'code'] = stock_list['code'][i][1:]   # taking off "A" in front of returned code
+        print('My Stock List (up to 50 items): \n', tabulate(stock_list[:50], headers='keys', tablefmt='psql'))
         return stock_list.set_index('code')
 
     def update_buy_list(self, buy_list_code, buy_list_price):
-        buy_list = pd.read_excel(EXCEL_BUY_LIST, index_col=None, converters={'Code':str})
+        buy_list_excel = pd.read_excel(EXCEL_BUY_LIST, index_col=None, converters={'Code':str})
 
         for i, code in enumerate(buy_list_code):
             name = self.get_master_code_name(code) 
             today = datetime.datetime.today().strftime("%Y%m%d")
             time_ = datetime.datetime.now().strftime("%H:%M:%S")
             amount = round(ALLOCATION_SIZE/buy_list_price[i])
-            buy_list = buy_list.append({'Date': today, 'Time': time_, 'Name': name, 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': buy_list_price[i], 'Amount': amount }, ignore_index=True)
+            buy_list_excel = buy_list_excel.append({'Date': today, 'Time': time_, 'Name': name, 'Code': code, 
+                'Order_type': 'mkt', 'Tr': 'yet', 'Price': buy_list_price[i], 'Amount': amount }, ignore_index=True)
 
-        print('Buy List: \n', tabulate(buy_list[-30:], headers='keys', tablefmt='psql'))
-        buy_list.to_excel(EXCEL_BUY_LIST, index=False)
+        print('Buy List Excel (lastest 50 items): \n', tabulate(buy_list_excel[-30:], headers='keys', tablefmt='psql'))
+        buy_list_excel.to_excel(EXCEL_BUY_LIST, index=False)
 
-    def update_sell_list(self, names_to_sell, codes_to_sell, quantity_to_sell, prices_to_sell):
-        sell_list = pd.read_excel(EXCEL_SELL_LIST, index_col=None, converters={'Code':str})
+    def update_sell_list(self, sell_list): 
+
+        sell_list_excel = pd.read_excel(EXCEL_SELL_LIST, index_col=None, converters={'Code':str})
         
-        for i, code in enumerate(codes_to_sell):
+        for i in range(len(sell_list)):
             today = datetime.datetime.today().strftime("%Y%m%d")
             time_ = datetime.datetime.now().strftime("%H:%M:%S")
-            sell_list = sell_list.append({'Date': today, 'Time': time_, 'Name': names_to_sell[i], 'Code': code, 'Order_type': 'mkt', 'Tr': 'yet', 'Price': prices_to_sell[i], 'Amount': quantity_to_sell[i] }, ignore_index=True)
+            sell_list_excel = sell_list_excel.append({'Date': today, 'Time': time_, 'Name': sell_list.iloc[i]["name"], 'Code': sell_list.index[i],
+                'Order_type': 'mkt', 'Tr': 'yet', 'Price': sell_list.iloc[i]["current_price"], 'Amount': sell_list.iloc[i]["quantity"] }, ignore_index=True)
 
-        print('Sell List: \n', tabulate(sell_list[-30:], headers='keys', tablefmt='psql'))
-        sell_list.to_excel(EXCEL_SELL_LIST, index=False)
+        print('Sell List Excel (lastest 50 items): \n', tabulate(sell_list_excel[-30:], headers='keys', tablefmt='psql'))
+        sell_list_excel.to_excel(EXCEL_SELL_LIST, index=False)
